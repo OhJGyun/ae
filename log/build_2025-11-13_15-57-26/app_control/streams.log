@@ -1,0 +1,95 @@
+[0.033s] Invoking command in '/home/ojg/ae/build/app_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ojg/ae/install/visualization:/home/ojg/ae/install/obs_detect:/home/ojg/ae/install/map_control:/home/ojg/ae/install/lane_selector:/home/ojg/ae/install/f1tenth_gym_ros:/home/ojg/ae/install/evaluation:/opt/ros/humble /usr/bin/cmake /home/ojg/ae/src/app_control -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ojg/ae/install/app_control
+[1.073s] -- The C compiler identification is GNU 11.4.0
+[1.073s] -- The CXX compiler identification is GNU 11.4.0
+[1.073s] -- Detecting C compiler ABI info
+[1.073s] -- Detecting C compiler ABI info - done
+[1.073s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.073s] -- Detecting C compile features
+[1.073s] -- Detecting C compile features - done
+[1.073s] -- Detecting CXX compiler ABI info
+[1.074s] -- Detecting CXX compiler ABI info - done
+[1.074s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.074s] -- Detecting CXX compile features
+[1.074s] -- Detecting CXX compile features - done
+[1.074s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.074s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.074s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.074s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[1.074s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.074s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.074s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.074s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.074s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.074s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.074s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.074s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.075s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.075s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.075s] -- Looking for pthread.h
+[1.075s] -- Looking for pthread.h - found
+[1.075s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.075s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.075s] -- Found Threads: TRUE  
+[1.075s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.075s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.075s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.075s] -- Found ackermann_msgs: 2.0.2 (/opt/ros/humble/share/ackermann_msgs/cmake)
+[1.075s] -- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+[1.075s] -- Found tf2: 0.25.16 (/opt/ros/humble/share/tf2/cmake)
+[1.075s] -- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.077s] -- Found tf2_geometry_msgs: 0.25.16 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.086s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.087s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.087s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.094s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.156s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.157s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.157s] -- Configured cppcheck include dirs: 
+[1.158s] -- Configured cppcheck exclude dirs and/or files: 
+[1.158s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.158s] -- Configured cpplint exclude dirs and/or files: 
+[1.159s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.159s] -- Added test 'lint_cmake' to check CMake code style
+[1.160s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.161s] -- Added test 'uncrustify' to check C / C++ code style
+[1.161s] -- Configured uncrustify additional arguments: 
+[1.161s] -- Added test 'xmllint' to check XML markup files
+[1.162s] -- Configuring done
+[1.176s] -- Generating done
+[1.182s] -- Build files have been written to: /home/ojg/ae/build/app_control
+[1.255s] Invoked command in '/home/ojg/ae/build/app_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ojg/ae/install/visualization:/home/ojg/ae/install/obs_detect:/home/ojg/ae/install/map_control:/home/ojg/ae/install/lane_selector:/home/ojg/ae/install/f1tenth_gym_ros:/home/ojg/ae/install/evaluation:/opt/ros/humble /usr/bin/cmake /home/ojg/ae/src/app_control -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ojg/ae/install/app_control
+[1.257s] Invoking command in '/home/ojg/ae/build/app_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ojg/ae/install/visualization:/home/ojg/ae/install/obs_detect:/home/ojg/ae/install/map_control:/home/ojg/ae/install/lane_selector:/home/ojg/ae/install/f1tenth_gym_ros:/home/ojg/ae/install/evaluation:/opt/ros/humble /usr/bin/cmake --build /home/ojg/ae/build/app_control -- -j18 -l18
+[1.303s] [ 25%] [32mBuilding CXX object CMakeFiles/stanley_node.dir/src/stanley_node.cpp.o[0m
+[1.303s] [ 50%] [32mBuilding CXX object CMakeFiles/pure_pursuit_sim_node.dir/src/pure_pursuit_sim_node.cpp.o[0m
+[11.851s] [ 75%] [32m[1mLinking CXX executable stanley_node[0m
+[12.010s] [ 75%] Built target stanley_node
+[13.433s] [100%] [32m[1mLinking CXX executable pure_pursuit_sim_node[0m
+[13.574s] [100%] Built target pure_pursuit_sim_node
+[13.585s] Invoked command in '/home/ojg/ae/build/app_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ojg/ae/install/visualization:/home/ojg/ae/install/obs_detect:/home/ojg/ae/install/map_control:/home/ojg/ae/install/lane_selector:/home/ojg/ae/install/f1tenth_gym_ros:/home/ojg/ae/install/evaluation:/opt/ros/humble /usr/bin/cmake --build /home/ojg/ae/build/app_control -- -j18 -l18
+[13.587s] Invoking command in '/home/ojg/ae/build/app_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ojg/ae/install/visualization:/home/ojg/ae/install/obs_detect:/home/ojg/ae/install/map_control:/home/ojg/ae/install/lane_selector:/home/ojg/ae/install/f1tenth_gym_ros:/home/ojg/ae/install/evaluation:/opt/ros/humble /usr/bin/cmake --install /home/ojg/ae/build/app_control
+[13.592s] -- Install configuration: "Release"
+[13.592s] -- Execute custom install script
+[13.593s] -- Symlinking: /home/ojg/ae/install/app_control/lib/app_control/pure_pursuit_sim_node
+[13.598s] -- Symlinking: /home/ojg/ae/install/app_control/lib/app_control/stanley_node
+[13.604s] -- Symlinking: /home/ojg/ae/install/app_control/share/app_control//launch/pure_pursuit_launch.py
+[13.610s] -- Symlinking: /home/ojg/ae/install/app_control/share/app_control//launch/stanley_launch.py
+[13.616s] -- Symlinking: /home/ojg/ae/install/app_control/share/app_control//config/pure_pursuit_params.yaml
+[13.621s] -- Symlinking: /home/ojg/ae/install/app_control/share/app_control//config/stanley_params.yaml
+[13.627s] -- Symlinking: /home/ojg/ae/install/app_control/share/app_control//rviz/autonomous_driving.rviz
+[13.632s] -- Symlinking: /home/ojg/ae/install/app_control/share/app_control//rviz/pure_pursuit.rviz
+[13.637s] -- Symlinking: /home/ojg/ae/install/app_control/share/ament_index/resource_index/package_run_dependencies/app_control
+[13.643s] -- Symlinking: /home/ojg/ae/install/app_control/share/ament_index/resource_index/parent_prefix_path/app_control
+[13.648s] -- Symlinking: /home/ojg/ae/install/app_control/share/app_control/environment/ament_prefix_path.sh
+[13.653s] -- Symlinking: /home/ojg/ae/install/app_control/share/app_control/environment/ament_prefix_path.dsv
+[13.658s] -- Symlinking: /home/ojg/ae/install/app_control/share/app_control/environment/path.sh
+[13.663s] -- Symlinking: /home/ojg/ae/install/app_control/share/app_control/environment/path.dsv
+[13.667s] -- Symlinking: /home/ojg/ae/install/app_control/share/app_control/local_setup.bash
+[13.674s] -- Symlinking: /home/ojg/ae/install/app_control/share/app_control/local_setup.sh
+[13.681s] -- Symlinking: /home/ojg/ae/install/app_control/share/app_control/local_setup.zsh
+[13.687s] -- Symlinking: /home/ojg/ae/install/app_control/share/app_control/local_setup.dsv
+[13.692s] -- Symlinking: /home/ojg/ae/install/app_control/share/app_control/package.dsv
+[13.698s] -- Symlinking: /home/ojg/ae/install/app_control/share/ament_index/resource_index/packages/app_control
+[13.702s] -- Symlinking: /home/ojg/ae/install/app_control/share/app_control/cmake/app_controlConfig.cmake
+[13.707s] -- Symlinking: /home/ojg/ae/install/app_control/share/app_control/cmake/app_controlConfig-version.cmake
+[13.713s] -- Symlinking: /home/ojg/ae/install/app_control/share/app_control/package.xml
+[13.719s] Invoked command in '/home/ojg/ae/build/app_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ojg/ae/install/visualization:/home/ojg/ae/install/obs_detect:/home/ojg/ae/install/map_control:/home/ojg/ae/install/lane_selector:/home/ojg/ae/install/f1tenth_gym_ros:/home/ojg/ae/install/evaluation:/opt/ros/humble /usr/bin/cmake --install /home/ojg/ae/build/app_control

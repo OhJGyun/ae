@@ -1,0 +1,867 @@
+[0.069s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install', '--cmake-args', '-DCMAKE_BUILD_TYPE=Release']
+[0.069s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=18, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=['-DCMAKE_BUILD_TYPE=Release'], cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x74115ac7ea40>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x74115ad8ffd0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x74115ad8ffd0>>, mixin_verb=('build',))
+[0.186s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.186s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.186s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.186s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.186s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.186s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.186s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ojg/ae'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extensions ['ignore', 'ignore_ament_install']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extension 'ignore'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extension 'ignore_ament_install'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extensions ['colcon_pkg']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extension 'colcon_pkg'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extensions ['colcon_meta']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extension 'colcon_meta'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extensions ['ros']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extension 'ros'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extensions ['cmake', 'python']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extension 'cmake'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extension 'python'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extensions ['python_setup_py']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extension 'python_setup_py'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(data/image) by extensions ['ignore', 'ignore_ament_install']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(data/image) by extension 'ignore'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(data/image) by extension 'ignore_ament_install'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(data/image) by extensions ['colcon_pkg']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(data/image) by extension 'colcon_pkg'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(data/image) by extensions ['colcon_meta']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(data/image) by extension 'colcon_meta'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(data/image) by extensions ['ros']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(data/image) by extension 'ros'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(data/image) by extensions ['cmake', 'python']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(data/image) by extension 'cmake'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(data/image) by extension 'python'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(data/image) by extensions ['python_setup_py']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(data/image) by extension 'python_setup_py'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(data/video) by extensions ['ignore', 'ignore_ament_install']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(data/video) by extension 'ignore'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(data/video) by extension 'ignore_ament_install'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(data/video) by extensions ['colcon_pkg']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(data/video) by extension 'colcon_pkg'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(data/video) by extensions ['colcon_meta']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(data/video) by extension 'colcon_meta'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(data/video) by extensions ['ros']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(data/video) by extension 'ros'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(data/video) by extensions ['cmake', 'python']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(data/video) by extension 'cmake'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(data/video) by extension 'python'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(data/video) by extensions ['python_setup_py']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(data/video) by extension 'python_setup_py'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/app_control) by extensions ['ignore', 'ignore_ament_install']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/app_control) by extension 'ignore'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/app_control) by extension 'ignore_ament_install'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/app_control) by extensions ['colcon_pkg']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/app_control) by extension 'colcon_pkg'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/app_control) by extensions ['colcon_meta']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/app_control) by extension 'colcon_meta'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/app_control) by extensions ['ros']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/app_control) by extension 'ros'
+[0.203s] DEBUG:colcon.colcon_core.package_identification:Package 'src/app_control' with type 'ros.ament_cmake' and name 'app_control'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/cimpcc_control) by extensions ['ignore', 'ignore_ament_install']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/cimpcc_control) by extension 'ignore'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/cimpcc_control) by extension 'ignore_ament_install'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/cimpcc_control) by extensions ['colcon_pkg']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/cimpcc_control) by extension 'colcon_pkg'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/cimpcc_control) by extensions ['colcon_meta']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/cimpcc_control) by extension 'colcon_meta'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/cimpcc_control) by extensions ['ros']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/cimpcc_control) by extension 'ros'
+[0.204s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cimpcc_control' with type 'ros.ament_cmake' and name 'cimpcc_control'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/disparity_control) by extensions ['ignore', 'ignore_ament_install']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/disparity_control) by extension 'ignore'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/disparity_control) by extension 'ignore_ament_install'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/disparity_control) by extensions ['colcon_pkg']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/disparity_control) by extension 'colcon_pkg'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/disparity_control) by extensions ['colcon_meta']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/disparity_control) by extension 'colcon_meta'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/disparity_control) by extensions ['ros']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/disparity_control) by extension 'ros'
+[0.205s] DEBUG:colcon.colcon_core.package_identification:Package 'src/disparity_control' with type 'ros.ament_cmake' and name 'disparity_control'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/evaluation) by extensions ['ignore', 'ignore_ament_install']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/evaluation) by extension 'ignore'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/evaluation) by extension 'ignore_ament_install'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/evaluation) by extensions ['colcon_pkg']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/evaluation) by extension 'colcon_pkg'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/evaluation) by extensions ['colcon_meta']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/evaluation) by extension 'colcon_meta'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/evaluation) by extensions ['ros']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/evaluation) by extension 'ros'
+[0.206s] DEBUG:colcon.colcon_core.package_identification:Package 'src/evaluation' with type 'ros.ament_python' and name 'evaluation'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_gym_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_gym_ros) by extension 'ignore'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_gym_ros) by extension 'ignore_ament_install'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_gym_ros) by extensions ['colcon_pkg']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_gym_ros) by extension 'colcon_pkg'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_gym_ros) by extensions ['colcon_meta']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_gym_ros) by extension 'colcon_meta'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_gym_ros) by extensions ['ros']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_gym_ros) by extension 'ros'
+[0.207s] DEBUG:colcon.colcon_core.package_identification:Package 'src/f1tenth_gym_ros' with type 'ros.ament_python' and name 'f1tenth_gym_ros'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/lane_selector) by extensions ['ignore', 'ignore_ament_install']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/lane_selector) by extension 'ignore'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/lane_selector) by extension 'ignore_ament_install'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/lane_selector) by extensions ['colcon_pkg']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/lane_selector) by extension 'colcon_pkg'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/lane_selector) by extensions ['colcon_meta']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/lane_selector) by extension 'colcon_meta'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/lane_selector) by extensions ['ros']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/lane_selector) by extension 'ros'
+[0.208s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lane_selector' with type 'ros.ament_python' and name 'lane_selector'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/map_control) by extensions ['ignore', 'ignore_ament_install']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/map_control) by extension 'ignore'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/map_control) by extension 'ignore_ament_install'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/map_control) by extensions ['colcon_pkg']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/map_control) by extension 'colcon_pkg'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/map_control) by extensions ['colcon_meta']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/map_control) by extension 'colcon_meta'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/map_control) by extensions ['ros']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/map_control) by extension 'ros'
+[0.209s] DEBUG:colcon.colcon_core.package_identification:Package 'src/map_control' with type 'ros.ament_python' and name 'map_control'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpcc_control) by extensions ['ignore', 'ignore_ament_install']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpcc_control) by extension 'ignore'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpcc_control) by extension 'ignore_ament_install'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpcc_control) by extensions ['colcon_pkg']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpcc_control) by extension 'colcon_pkg'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpcc_control) by extensions ['colcon_meta']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpcc_control) by extension 'colcon_meta'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpcc_control) by extensions ['ros']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpcc_control) by extension 'ros'
+[0.210s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mpcc_control' with type 'ros.ament_cmake' and name 'mpcc_control'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/obs_detect) by extensions ['ignore', 'ignore_ament_install']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/obs_detect) by extension 'ignore'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/obs_detect) by extension 'ignore_ament_install'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/obs_detect) by extensions ['colcon_pkg']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/obs_detect) by extension 'colcon_pkg'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/obs_detect) by extensions ['colcon_meta']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/obs_detect) by extension 'colcon_meta'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/obs_detect) by extensions ['ros']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/obs_detect) by extension 'ros'
+[0.210s] DEBUG:colcon.colcon_core.package_identification:Package 'src/obs_detect' with type 'ros.ament_python' and name 'obs_detect'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualization) by extensions ['ignore', 'ignore_ament_install']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualization) by extension 'ignore'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualization) by extension 'ignore_ament_install'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualization) by extensions ['colcon_pkg']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualization) by extension 'colcon_pkg'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualization) by extensions ['colcon_meta']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualization) by extension 'colcon_meta'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualization) by extensions ['ros']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualization) by extension 'ros'
+[0.211s] DEBUG:colcon.colcon_core.package_identification:Package 'src/visualization' with type 'ros.ament_python' and name 'visualization'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(track) by extensions ['ignore', 'ignore_ament_install']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(track) by extension 'ignore'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(track) by extension 'ignore_ament_install'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(track) by extensions ['colcon_pkg']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(track) by extension 'colcon_pkg'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(track) by extensions ['colcon_meta']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(track) by extension 'colcon_meta'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(track) by extensions ['ros']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(track) by extension 'ros'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(track) by extensions ['cmake', 'python']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(track) by extension 'cmake'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(track) by extension 'python'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(track) by extensions ['python_setup_py']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(track) by extension 'python_setup_py'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(track/bound) by extensions ['ignore', 'ignore_ament_install']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(track/bound) by extension 'ignore'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(track/bound) by extension 'ignore_ament_install'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(track/bound) by extensions ['colcon_pkg']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(track/bound) by extension 'colcon_pkg'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(track/bound) by extensions ['colcon_meta']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(track/bound) by extension 'colcon_meta'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(track/bound) by extensions ['ros']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(track/bound) by extension 'ros'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(track/bound) by extensions ['cmake', 'python']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(track/bound) by extension 'cmake'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(track/bound) by extension 'python'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(track/bound) by extensions ['python_setup_py']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(track/bound) by extension 'python_setup_py'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(track/bound/0.4_0.4) by extensions ['ignore', 'ignore_ament_install']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(track/bound/0.4_0.4) by extension 'ignore'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(track/bound/0.4_0.4) by extension 'ignore_ament_install'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(track/bound/0.4_0.4) by extensions ['colcon_pkg']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(track/bound/0.4_0.4) by extension 'colcon_pkg'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(track/bound/0.4_0.4) by extensions ['colcon_meta']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(track/bound/0.4_0.4) by extension 'colcon_meta'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(track/bound/0.4_0.4) by extensions ['ros']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(track/bound/0.4_0.4) by extension 'ros'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(track/bound/0.4_0.4) by extensions ['cmake', 'python']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(track/bound/0.4_0.4) by extension 'cmake'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(track/bound/0.4_0.4) by extension 'python'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(track/bound/0.4_0.4) by extensions ['python_setup_py']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(track/bound/0.4_0.4) by extension 'python_setup_py'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(track/map) by extensions ['ignore', 'ignore_ament_install']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(track/map) by extension 'ignore'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(track/map) by extension 'ignore_ament_install'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(track/map) by extensions ['colcon_pkg']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(track/map) by extension 'colcon_pkg'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(track/map) by extensions ['colcon_meta']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(track/map) by extension 'colcon_meta'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(track/map) by extensions ['ros']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(track/map) by extension 'ros'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(track/map) by extensions ['cmake', 'python']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(track/map) by extension 'cmake'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(track/map) by extension 'python'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(track/map) by extensions ['python_setup_py']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(track/map) by extension 'python_setup_py'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(track/path) by extensions ['ignore', 'ignore_ament_install']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(track/path) by extension 'ignore'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(track/path) by extension 'ignore_ament_install'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(track/path) by extensions ['colcon_pkg']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(track/path) by extension 'colcon_pkg'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(track/path) by extensions ['colcon_meta']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(track/path) by extension 'colcon_meta'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(track/path) by extensions ['ros']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(track/path) by extension 'ros'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(track/path) by extensions ['cmake', 'python']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(track/path) by extension 'cmake'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(track/path) by extension 'python'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(track/path) by extensions ['python_setup_py']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(track/path) by extension 'python_setup_py'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(track/path/app_path) by extensions ['ignore', 'ignore_ament_install']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(track/path/app_path) by extension 'ignore'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(track/path/app_path) by extension 'ignore_ament_install'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(track/path/app_path) by extensions ['colcon_pkg']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(track/path/app_path) by extension 'colcon_pkg'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(track/path/app_path) by extensions ['colcon_meta']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(track/path/app_path) by extension 'colcon_meta'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(track/path/app_path) by extensions ['ros']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(track/path/app_path) by extension 'ros'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(track/path/app_path) by extensions ['cmake', 'python']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(track/path/app_path) by extension 'cmake'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(track/path/app_path) by extension 'python'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(track/path/app_path) by extensions ['python_setup_py']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(track/path/app_path) by extension 'python_setup_py'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(track/path/app_path/test_10.0) by extensions ['ignore', 'ignore_ament_install']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(track/path/app_path/test_10.0) by extension 'ignore'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(track/path/app_path/test_10.0) by extension 'ignore_ament_install'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(track/path/app_path/test_10.0) by extensions ['colcon_pkg']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(track/path/app_path/test_10.0) by extension 'colcon_pkg'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(track/path/app_path/test_10.0) by extensions ['colcon_meta']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(track/path/app_path/test_10.0) by extension 'colcon_meta'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(track/path/app_path/test_10.0) by extensions ['ros']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(track/path/app_path/test_10.0) by extension 'ros'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(track/path/app_path/test_10.0) by extensions ['cmake', 'python']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(track/path/app_path/test_10.0) by extension 'cmake'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(track/path/app_path/test_10.0) by extension 'python'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(track/path/app_path/test_10.0) by extensions ['python_setup_py']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(track/path/app_path/test_10.0) by extension 'python_setup_py'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(track/path/app_path/test_12.0) by extensions ['ignore', 'ignore_ament_install']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(track/path/app_path/test_12.0) by extension 'ignore'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(track/path/app_path/test_12.0) by extension 'ignore_ament_install'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(track/path/app_path/test_12.0) by extensions ['colcon_pkg']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(track/path/app_path/test_12.0) by extension 'colcon_pkg'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(track/path/app_path/test_12.0) by extensions ['colcon_meta']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(track/path/app_path/test_12.0) by extension 'colcon_meta'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(track/path/app_path/test_12.0) by extensions ['ros']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(track/path/app_path/test_12.0) by extension 'ros'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(track/path/app_path/test_12.0) by extensions ['cmake', 'python']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(track/path/app_path/test_12.0) by extension 'cmake'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(track/path/app_path/test_12.0) by extension 'python'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(track/path/app_path/test_12.0) by extensions ['python_setup_py']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(track/path/app_path/test_12.0) by extension 'python_setup_py'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(track/path/app_path/test_15.0) by extensions ['ignore', 'ignore_ament_install']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(track/path/app_path/test_15.0) by extension 'ignore'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(track/path/app_path/test_15.0) by extension 'ignore_ament_install'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(track/path/app_path/test_15.0) by extensions ['colcon_pkg']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(track/path/app_path/test_15.0) by extension 'colcon_pkg'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(track/path/app_path/test_15.0) by extensions ['colcon_meta']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(track/path/app_path/test_15.0) by extension 'colcon_meta'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(track/path/app_path/test_15.0) by extensions ['ros']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(track/path/app_path/test_15.0) by extension 'ros'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(track/path/app_path/test_15.0) by extensions ['cmake', 'python']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(track/path/app_path/test_15.0) by extension 'cmake'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(track/path/app_path/test_15.0) by extension 'python'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(track/path/app_path/test_15.0) by extensions ['python_setup_py']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(track/path/app_path/test_15.0) by extension 'python_setup_py'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(track/path/map_path) by extensions ['ignore', 'ignore_ament_install']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(track/path/map_path) by extension 'ignore'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(track/path/map_path) by extension 'ignore_ament_install'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(track/path/map_path) by extensions ['colcon_pkg']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(track/path/map_path) by extension 'colcon_pkg'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(track/path/map_path) by extensions ['colcon_meta']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(track/path/map_path) by extension 'colcon_meta'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(track/path/map_path) by extensions ['ros']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(track/path/map_path) by extension 'ros'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(track/path/map_path) by extensions ['cmake', 'python']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(track/path/map_path) by extension 'cmake'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(track/path/map_path) by extension 'python'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(track/path/map_path) by extensions ['python_setup_py']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(track/path/map_path) by extension 'python_setup_py'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(track/path/map_path/test_12.0) by extensions ['ignore', 'ignore_ament_install']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(track/path/map_path/test_12.0) by extension 'ignore'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(track/path/map_path/test_12.0) by extension 'ignore_ament_install'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(track/path/map_path/test_12.0) by extensions ['colcon_pkg']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(track/path/map_path/test_12.0) by extension 'colcon_pkg'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(track/path/map_path/test_12.0) by extensions ['colcon_meta']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(track/path/map_path/test_12.0) by extension 'colcon_meta'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(track/path/map_path/test_12.0) by extensions ['ros']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(track/path/map_path/test_12.0) by extension 'ros'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(track/path/map_path/test_12.0) by extensions ['cmake', 'python']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(track/path/map_path/test_12.0) by extension 'cmake'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(track/path/map_path/test_12.0) by extension 'python'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(track/path/map_path/test_12.0) by extensions ['python_setup_py']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(track/path/map_path/test_12.0) by extension 'python_setup_py'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(track/path/mpcc_path) by extensions ['ignore', 'ignore_ament_install']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(track/path/mpcc_path) by extension 'ignore'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(track/path/mpcc_path) by extension 'ignore_ament_install'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(track/path/mpcc_path) by extensions ['colcon_pkg']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(track/path/mpcc_path) by extension 'colcon_pkg'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(track/path/mpcc_path) by extensions ['colcon_meta']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(track/path/mpcc_path) by extension 'colcon_meta'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(track/path/mpcc_path) by extensions ['ros']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(track/path/mpcc_path) by extension 'ros'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(track/path/mpcc_path) by extensions ['cmake', 'python']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(track/path/mpcc_path) by extension 'cmake'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(track/path/mpcc_path) by extension 'python'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(track/path/mpcc_path) by extensions ['python_setup_py']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(track/path/mpcc_path) by extension 'python_setup_py'
+[0.215s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.215s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.215s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.215s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.215s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.231s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.231s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.232s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 10 installed packages in /home/ojg/ae/install
+[0.233s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 339 installed packages in /opt/ros/humble
+[0.234s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'app_control' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'app_control' build argument 'cmake_target' from command line to 'None'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'app_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'app_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'app_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'app_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'app_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'app_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'app_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.259s] DEBUG:colcon.colcon_core.verb:Building package 'app_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ojg/ae/build/app_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ojg/ae/install/app_control', 'merge_install': False, 'path': '/home/ojg/ae/src/app_control', 'symlink_install': True, 'test_result_base': None}
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'cimpcc_control' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'cimpcc_control' build argument 'cmake_target' from command line to 'None'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'cimpcc_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'cimpcc_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'cimpcc_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'cimpcc_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'cimpcc_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'cimpcc_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'cimpcc_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.259s] DEBUG:colcon.colcon_core.verb:Building package 'cimpcc_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ojg/ae/build/cimpcc_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ojg/ae/install/cimpcc_control', 'merge_install': False, 'path': '/home/ojg/ae/src/cimpcc_control', 'symlink_install': True, 'test_result_base': None}
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'disparity_control' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'disparity_control' build argument 'cmake_target' from command line to 'None'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'disparity_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'disparity_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'disparity_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'disparity_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'disparity_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'disparity_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'disparity_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.259s] DEBUG:colcon.colcon_core.verb:Building package 'disparity_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ojg/ae/build/disparity_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ojg/ae/install/disparity_control', 'merge_install': False, 'path': '/home/ojg/ae/src/disparity_control', 'symlink_install': True, 'test_result_base': None}
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'evaluation' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'evaluation' build argument 'cmake_target' from command line to 'None'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'evaluation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'evaluation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'evaluation' build argument 'cmake_clean_first' from command line to 'False'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'evaluation' build argument 'cmake_force_configure' from command line to 'False'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'evaluation' build argument 'ament_cmake_args' from command line to 'None'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'evaluation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'evaluation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.260s] DEBUG:colcon.colcon_core.verb:Building package 'evaluation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ojg/ae/build/evaluation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ojg/ae/install/evaluation', 'merge_install': False, 'path': '/home/ojg/ae/src/evaluation', 'symlink_install': True, 'test_result_base': None}
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'f1tenth_gym_ros' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'f1tenth_gym_ros' build argument 'cmake_target' from command line to 'None'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'f1tenth_gym_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'f1tenth_gym_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'f1tenth_gym_ros' build argument 'cmake_clean_first' from command line to 'False'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'f1tenth_gym_ros' build argument 'cmake_force_configure' from command line to 'False'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'f1tenth_gym_ros' build argument 'ament_cmake_args' from command line to 'None'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'f1tenth_gym_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'f1tenth_gym_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.260s] DEBUG:colcon.colcon_core.verb:Building package 'f1tenth_gym_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ojg/ae/build/f1tenth_gym_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ojg/ae/install/f1tenth_gym_ros', 'merge_install': False, 'path': '/home/ojg/ae/src/f1tenth_gym_ros', 'symlink_install': True, 'test_result_base': None}
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'lane_selector' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'lane_selector' build argument 'cmake_target' from command line to 'None'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'lane_selector' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'lane_selector' build argument 'cmake_clean_cache' from command line to 'False'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'lane_selector' build argument 'cmake_clean_first' from command line to 'False'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'lane_selector' build argument 'cmake_force_configure' from command line to 'False'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'lane_selector' build argument 'ament_cmake_args' from command line to 'None'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'lane_selector' build argument 'catkin_cmake_args' from command line to 'None'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'lane_selector' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.260s] DEBUG:colcon.colcon_core.verb:Building package 'lane_selector' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ojg/ae/build/lane_selector', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ojg/ae/install/lane_selector', 'merge_install': False, 'path': '/home/ojg/ae/src/lane_selector', 'symlink_install': True, 'test_result_base': None}
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'map_control' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'map_control' build argument 'cmake_target' from command line to 'None'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'map_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'map_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'map_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'map_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'map_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'map_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'map_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.261s] DEBUG:colcon.colcon_core.verb:Building package 'map_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ojg/ae/build/map_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ojg/ae/install/map_control', 'merge_install': False, 'path': '/home/ojg/ae/src/map_control', 'symlink_install': True, 'test_result_base': None}
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'mpcc_control' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'mpcc_control' build argument 'cmake_target' from command line to 'None'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'mpcc_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'mpcc_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'mpcc_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'mpcc_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'mpcc_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'mpcc_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'mpcc_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.261s] DEBUG:colcon.colcon_core.verb:Building package 'mpcc_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ojg/ae/build/mpcc_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ojg/ae/install/mpcc_control', 'merge_install': False, 'path': '/home/ojg/ae/src/mpcc_control', 'symlink_install': True, 'test_result_base': None}
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'obs_detect' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'obs_detect' build argument 'cmake_target' from command line to 'None'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'obs_detect' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'obs_detect' build argument 'cmake_clean_cache' from command line to 'False'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'obs_detect' build argument 'cmake_clean_first' from command line to 'False'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'obs_detect' build argument 'cmake_force_configure' from command line to 'False'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'obs_detect' build argument 'ament_cmake_args' from command line to 'None'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'obs_detect' build argument 'catkin_cmake_args' from command line to 'None'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'obs_detect' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.261s] DEBUG:colcon.colcon_core.verb:Building package 'obs_detect' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ojg/ae/build/obs_detect', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ojg/ae/install/obs_detect', 'merge_install': False, 'path': '/home/ojg/ae/src/obs_detect', 'symlink_install': True, 'test_result_base': None}
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'visualization' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'visualization' build argument 'cmake_target' from command line to 'None'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'visualization' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'visualization' build argument 'cmake_clean_cache' from command line to 'False'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'visualization' build argument 'cmake_clean_first' from command line to 'False'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'visualization' build argument 'cmake_force_configure' from command line to 'False'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'visualization' build argument 'ament_cmake_args' from command line to 'None'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'visualization' build argument 'catkin_cmake_args' from command line to 'None'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'visualization' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.262s] DEBUG:colcon.colcon_core.verb:Building package 'visualization' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ojg/ae/build/visualization', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ojg/ae/install/visualization', 'merge_install': False, 'path': '/home/ojg/ae/src/visualization', 'symlink_install': True, 'test_result_base': None}
+[0.262s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.263s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.263s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ojg/ae/src/app_control' with build type 'ament_cmake'
+[0.263s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ojg/ae/src/app_control'
+[0.265s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.265s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.265s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.268s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ojg/ae/src/cimpcc_control' with build type 'ament_cmake'
+[0.269s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ojg/ae/src/cimpcc_control'
+[0.269s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.269s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.272s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ojg/ae/src/disparity_control' with build type 'ament_cmake'
+[0.272s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ojg/ae/src/disparity_control'
+[0.272s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.272s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.275s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ojg/ae/src/evaluation' with build type 'ament_python'
+[0.276s] Level 1:colcon.colcon_core.shell:create_environment_hook('evaluation', 'ament_prefix_path')
+[0.276s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ojg/ae/install/evaluation/share/evaluation/hook/ament_prefix_path.ps1'
+[0.276s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ojg/ae/install/evaluation/share/evaluation/hook/ament_prefix_path.dsv'
+[0.277s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ojg/ae/install/evaluation/share/evaluation/hook/ament_prefix_path.sh'
+[0.277s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.277s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.279s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ojg/ae/src/f1tenth_gym_ros' with build type 'ament_python'
+[0.279s] Level 1:colcon.colcon_core.shell:create_environment_hook('f1tenth_gym_ros', 'ament_prefix_path')
+[0.279s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ojg/ae/install/f1tenth_gym_ros/share/f1tenth_gym_ros/hook/ament_prefix_path.ps1'
+[0.280s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ojg/ae/install/f1tenth_gym_ros/share/f1tenth_gym_ros/hook/ament_prefix_path.dsv'
+[0.280s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ojg/ae/install/f1tenth_gym_ros/share/f1tenth_gym_ros/hook/ament_prefix_path.sh'
+[0.280s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.280s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.282s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ojg/ae/src/lane_selector' with build type 'ament_python'
+[0.282s] Level 1:colcon.colcon_core.shell:create_environment_hook('lane_selector', 'ament_prefix_path')
+[0.283s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ojg/ae/install/lane_selector/share/lane_selector/hook/ament_prefix_path.ps1'
+[0.283s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ojg/ae/install/lane_selector/share/lane_selector/hook/ament_prefix_path.dsv'
+[0.283s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ojg/ae/install/lane_selector/share/lane_selector/hook/ament_prefix_path.sh'
+[0.283s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.283s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.285s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ojg/ae/src/map_control' with build type 'ament_python'
+[0.285s] Level 1:colcon.colcon_core.shell:create_environment_hook('map_control', 'ament_prefix_path')
+[0.286s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ojg/ae/install/map_control/share/map_control/hook/ament_prefix_path.ps1'
+[0.286s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ojg/ae/install/map_control/share/map_control/hook/ament_prefix_path.dsv'
+[0.286s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ojg/ae/install/map_control/share/map_control/hook/ament_prefix_path.sh'
+[0.286s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.286s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.288s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ojg/ae/src/mpcc_control' with build type 'ament_cmake'
+[0.288s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ojg/ae/src/mpcc_control'
+[0.289s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.289s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.290s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ojg/ae/src/obs_detect' with build type 'ament_python'
+[0.291s] Level 1:colcon.colcon_core.shell:create_environment_hook('obs_detect', 'ament_prefix_path')
+[0.291s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ojg/ae/install/obs_detect/share/obs_detect/hook/ament_prefix_path.ps1'
+[0.291s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ojg/ae/install/obs_detect/share/obs_detect/hook/ament_prefix_path.dsv'
+[0.291s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ojg/ae/install/obs_detect/share/obs_detect/hook/ament_prefix_path.sh'
+[0.292s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.292s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.294s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ojg/ae/src/visualization' with build type 'ament_python'
+[0.294s] Level 1:colcon.colcon_core.shell:create_environment_hook('visualization', 'ament_prefix_path')
+[0.294s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ojg/ae/install/visualization/share/visualization/hook/ament_prefix_path.ps1'
+[0.295s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ojg/ae/install/visualization/share/visualization/hook/ament_prefix_path.dsv'
+[0.295s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ojg/ae/install/visualization/share/visualization/hook/ament_prefix_path.sh'
+[0.295s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.296s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.302s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ojg/ae/build/app_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ojg/ae/install/visualization:/home/ojg/ae/install/obs_detect:/home/ojg/ae/install/map_control:/home/ojg/ae/install/lane_selector:/home/ojg/ae/install/f1tenth_gym_ros:/home/ojg/ae/install/evaluation:/opt/ros/humble /usr/bin/cmake --build /home/ojg/ae/build/app_control -- -j18 -l18
+[0.304s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ojg/ae/build/cimpcc_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ojg/ae/install/visualization:/home/ojg/ae/install/obs_detect:/home/ojg/ae/install/map_control:/home/ojg/ae/install/lane_selector:/home/ojg/ae/install/f1tenth_gym_ros:/home/ojg/ae/install/evaluation:/opt/ros/humble /usr/bin/cmake --build /home/ojg/ae/build/cimpcc_control -- -j18 -l18
+[0.305s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ojg/ae/build/disparity_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ojg/ae/install/visualization:/home/ojg/ae/install/obs_detect:/home/ojg/ae/install/map_control:/home/ojg/ae/install/lane_selector:/home/ojg/ae/install/f1tenth_gym_ros:/home/ojg/ae/install/evaluation:/opt/ros/humble /usr/bin/cmake --build /home/ojg/ae/build/disparity_control -- -j18 -l18
+[0.486s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ojg/ae/src/evaluation'
+[0.486s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.486s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.672s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ojg/ae/src/f1tenth_gym_ros'
+[0.672s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.672s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.853s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ojg/ae/src/lane_selector'
+[0.853s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.853s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.034s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ojg/ae/src/map_control'
+[1.034s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.034s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.040s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ojg/ae/build/mpcc_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ojg/ae/install/visualization:/home/ojg/ae/install/obs_detect:/home/ojg/ae/install/map_control:/home/ojg/ae/install/lane_selector:/home/ojg/ae/install/f1tenth_gym_ros:/home/ojg/ae/install/evaluation:/opt/ros/humble /usr/bin/cmake --build /home/ojg/ae/build/mpcc_control -- -j18 -l18
+[1.221s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ojg/ae/src/obs_detect'
+[1.221s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.221s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.405s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ojg/ae/src/visualization'
+[1.405s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.405s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.411s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ojg/ae/build/disparity_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ojg/ae/install/visualization:/home/ojg/ae/install/obs_detect:/home/ojg/ae/install/map_control:/home/ojg/ae/install/lane_selector:/home/ojg/ae/install/f1tenth_gym_ros:/home/ojg/ae/install/evaluation:/opt/ros/humble /usr/bin/cmake --build /home/ojg/ae/build/disparity_control -- -j18 -l18
+[1.417s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ojg/ae/build/disparity_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ojg/ae/install/visualization:/home/ojg/ae/install/obs_detect:/home/ojg/ae/install/map_control:/home/ojg/ae/install/lane_selector:/home/ojg/ae/install/f1tenth_gym_ros:/home/ojg/ae/install/evaluation:/opt/ros/humble /usr/bin/cmake --install /home/ojg/ae/build/disparity_control
+[1.417s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ojg/ae/build/cimpcc_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ojg/ae/install/visualization:/home/ojg/ae/install/obs_detect:/home/ojg/ae/install/map_control:/home/ojg/ae/install/lane_selector:/home/ojg/ae/install/f1tenth_gym_ros:/home/ojg/ae/install/evaluation:/opt/ros/humble /usr/bin/cmake --build /home/ojg/ae/build/cimpcc_control -- -j18 -l18
+[1.419s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ojg/ae/build/cimpcc_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ojg/ae/install/visualization:/home/ojg/ae/install/obs_detect:/home/ojg/ae/install/map_control:/home/ojg/ae/install/lane_selector:/home/ojg/ae/install/f1tenth_gym_ros:/home/ojg/ae/install/evaluation:/opt/ros/humble /usr/bin/cmake --install /home/ojg/ae/build/cimpcc_control
+[1.419s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ojg/ae/build/app_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ojg/ae/install/visualization:/home/ojg/ae/install/obs_detect:/home/ojg/ae/install/map_control:/home/ojg/ae/install/lane_selector:/home/ojg/ae/install/f1tenth_gym_ros:/home/ojg/ae/install/evaluation:/opt/ros/humble /usr/bin/cmake --build /home/ojg/ae/build/app_control -- -j18 -l18
+[1.420s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ojg/ae/build/app_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ojg/ae/install/visualization:/home/ojg/ae/install/obs_detect:/home/ojg/ae/install/map_control:/home/ojg/ae/install/lane_selector:/home/ojg/ae/install/f1tenth_gym_ros:/home/ojg/ae/install/evaluation:/opt/ros/humble /usr/bin/cmake --install /home/ojg/ae/build/app_control
+[1.428s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ojg/ae/build/mpcc_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ojg/ae/install/visualization:/home/ojg/ae/install/obs_detect:/home/ojg/ae/install/map_control:/home/ojg/ae/install/lane_selector:/home/ojg/ae/install/f1tenth_gym_ros:/home/ojg/ae/install/evaluation:/opt/ros/humble /usr/bin/cmake --build /home/ojg/ae/build/mpcc_control -- -j18 -l18
+[1.438s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(disparity_control)
+[1.443s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ojg/ae/build/mpcc_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ojg/ae/install/visualization:/home/ojg/ae/install/obs_detect:/home/ojg/ae/install/map_control:/home/ojg/ae/install/lane_selector:/home/ojg/ae/install/f1tenth_gym_ros:/home/ojg/ae/install/evaluation:/opt/ros/humble /usr/bin/cmake --install /home/ojg/ae/build/mpcc_control
+[1.445s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ojg/ae/build/disparity_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ojg/ae/install/visualization:/home/ojg/ae/install/obs_detect:/home/ojg/ae/install/map_control:/home/ojg/ae/install/lane_selector:/home/ojg/ae/install/f1tenth_gym_ros:/home/ojg/ae/install/evaluation:/opt/ros/humble /usr/bin/cmake --install /home/ojg/ae/build/disparity_control
+[1.450s] Level 1:colcon.colcon_core.environment:checking '/home/ojg/ae/install/disparity_control' for CMake module files
+[1.451s] Level 1:colcon.colcon_core.environment:checking '/home/ojg/ae/install/disparity_control' for CMake config files
+[1.451s] Level 1:colcon.colcon_core.shell:create_environment_hook('disparity_control', 'cmake_prefix_path')
+[1.451s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ojg/ae/install/disparity_control/share/disparity_control/hook/cmake_prefix_path.ps1'
+[1.452s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ojg/ae/install/disparity_control/share/disparity_control/hook/cmake_prefix_path.dsv'
+[1.452s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ojg/ae/install/disparity_control/share/disparity_control/hook/cmake_prefix_path.sh'
+[1.453s] Level 1:colcon.colcon_core.environment:checking '/home/ojg/ae/install/disparity_control/lib'
+[1.453s] Level 1:colcon.colcon_core.environment:checking '/home/ojg/ae/install/disparity_control/bin'
+[1.453s] Level 1:colcon.colcon_core.environment:checking '/home/ojg/ae/install/disparity_control/lib/pkgconfig/disparity_control.pc'
+[1.454s] Level 1:colcon.colcon_core.environment:checking '/home/ojg/ae/install/disparity_control/lib/python3.10/site-packages'
+[1.454s] Level 1:colcon.colcon_core.environment:checking '/home/ojg/ae/install/disparity_control/bin'
+[1.454s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojg/ae/install/disparity_control/share/disparity_control/package.ps1'
+[1.455s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ojg/ae/install/disparity_control/share/disparity_control/package.dsv'
+[1.456s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojg/ae/install/disparity_control/share/disparity_control/package.sh'
+[1.457s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojg/ae/install/disparity_control/share/disparity_control/package.bash'
+[1.457s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojg/ae/install/disparity_control/share/disparity_control/package.zsh'
+[1.458s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ojg/ae/install/disparity_control/share/colcon-core/packages/disparity_control)
+[1.459s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(disparity_control)
+[1.459s] Level 1:colcon.colcon_core.environment:checking '/home/ojg/ae/install/disparity_control' for CMake module files
+[1.460s] Level 1:colcon.colcon_core.environment:checking '/home/ojg/ae/install/disparity_control' for CMake config files
+[1.460s] Level 1:colcon.colcon_core.shell:create_environment_hook('disparity_control', 'cmake_prefix_path')
+[1.460s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ojg/ae/install/disparity_control/share/disparity_control/hook/cmake_prefix_path.ps1'
+[1.461s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ojg/ae/install/disparity_control/share/disparity_control/hook/cmake_prefix_path.dsv'
+[1.462s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ojg/ae/install/disparity_control/share/disparity_control/hook/cmake_prefix_path.sh'
+[1.462s] Level 1:colcon.colcon_core.environment:checking '/home/ojg/ae/install/disparity_control/lib'
+[1.462s] Level 1:colcon.colcon_core.environment:checking '/home/ojg/ae/install/disparity_control/bin'
+[1.462s] Level 1:colcon.colcon_core.environment:checking '/home/ojg/ae/install/disparity_control/lib/pkgconfig/disparity_control.pc'
+[1.463s] Level 1:colcon.colcon_core.environment:checking '/home/ojg/ae/install/disparity_control/lib/python3.10/site-packages'
+[1.463s] Level 1:colcon.colcon_core.environment:checking '/home/ojg/ae/install/disparity_control/bin'
+[1.463s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojg/ae/install/disparity_control/share/disparity_control/package.ps1'
+[1.464s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ojg/ae/install/disparity_control/share/disparity_control/package.dsv'
+[1.464s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojg/ae/install/disparity_control/share/disparity_control/package.sh'
+[1.465s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojg/ae/install/disparity_control/share/disparity_control/package.bash'
+[1.465s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojg/ae/install/disparity_control/share/disparity_control/package.zsh'
+[1.466s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ojg/ae/install/disparity_control/share/colcon-core/packages/disparity_control)
+[1.466s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(app_control)
+[1.466s] Level 1:colcon.colcon_core.environment:checking '/home/ojg/ae/install/app_control' for CMake module files
+[1.468s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ojg/ae/build/app_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ojg/ae/install/visualization:/home/ojg/ae/install/obs_detect:/home/ojg/ae/install/map_control:/home/ojg/ae/install/lane_selector:/home/ojg/ae/install/f1tenth_gym_ros:/home/ojg/ae/install/evaluation:/opt/ros/humble /usr/bin/cmake --install /home/ojg/ae/build/app_control
+[1.468s] Level 1:colcon.colcon_core.environment:checking '/home/ojg/ae/install/app_control' for CMake config files
+[1.469s] Level 1:colcon.colcon_core.shell:create_environment_hook('app_control', 'cmake_prefix_path')
+[1.469s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ojg/ae/install/app_control/share/app_control/hook/cmake_prefix_path.ps1'
+[1.470s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ojg/ae/install/app_control/share/app_control/hook/cmake_prefix_path.dsv'
+[1.470s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ojg/ae/install/app_control/share/app_control/hook/cmake_prefix_path.sh'
+[1.470s] Level 1:colcon.colcon_core.environment:checking '/home/ojg/ae/install/app_control/lib'
+[1.471s] Level 1:colcon.colcon_core.environment:checking '/home/ojg/ae/install/app_control/bin'
+[1.471s] Level 1:colcon.colcon_core.environment:checking '/home/ojg/ae/install/app_control/lib/pkgconfig/app_control.pc'
+[1.471s] Level 1:colcon.colcon_core.environment:checking '/home/ojg/ae/install/app_control/lib/python3.10/site-packages'
+[1.471s] Level 1:colcon.colcon_core.environment:checking '/home/ojg/ae/install/app_control/bin'
+[1.471s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojg/ae/install/app_control/share/app_control/package.ps1'
+[1.471s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ojg/ae/install/app_control/share/app_control/package.dsv'
+[1.472s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojg/ae/install/app_control/share/app_control/package.sh'
+[1.472s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojg/ae/install/app_control/share/app_control/package.bash'
+[1.472s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojg/ae/install/app_control/share/app_control/package.zsh'
+[1.472s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ojg/ae/install/app_control/share/colcon-core/packages/app_control)
+[1.473s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(app_control)
+[1.473s] Level 1:colcon.colcon_core.environment:checking '/home/ojg/ae/install/app_control' for CMake module files
+[1.473s] Level 1:colcon.colcon_core.environment:checking '/home/ojg/ae/install/app_control' for CMake config files
+[1.473s] Level 1:colcon.colcon_core.shell:create_environment_hook('app_control', 'cmake_prefix_path')
+[1.473s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ojg/ae/install/app_control/share/app_control/hook/cmake_prefix_path.ps1'
+[1.474s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ojg/ae/install/app_control/share/app_control/hook/cmake_prefix_path.dsv'
+[1.474s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ojg/ae/install/app_control/share/app_control/hook/cmake_prefix_path.sh'
+[1.474s] Level 1:colcon.colcon_core.environment:checking '/home/ojg/ae/install/app_control/lib'
+[1.474s] Level 1:colcon.colcon_core.environment:checking '/home/ojg/ae/install/app_control/bin'
+[1.474s] Level 1:colcon.colcon_core.environment:checking '/home/ojg/ae/install/app_control/lib/pkgconfig/app_control.pc'
+[1.474s] Level 1:colcon.colcon_core.environment:checking '/home/ojg/ae/install/app_control/lib/python3.10/site-packages'
+[1.474s] Level 1:colcon.colcon_core.environment:checking '/home/ojg/ae/install/app_control/bin'
+[1.475s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojg/ae/install/app_control/share/app_control/package.ps1'
+[1.475s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ojg/ae/install/app_control/share/app_control/package.dsv'
+[1.475s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojg/ae/install/app_control/share/app_control/package.sh'
+[1.475s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojg/ae/install/app_control/share/app_control/package.bash'
+[1.476s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojg/ae/install/app_control/share/app_control/package.zsh'
+[1.476s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ojg/ae/install/app_control/share/colcon-core/packages/app_control)
+[1.490s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cimpcc_control)
+[1.490s] Level 1:colcon.colcon_core.environment:checking '/home/ojg/ae/install/cimpcc_control' for CMake module files
+[1.491s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ojg/ae/build/cimpcc_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ojg/ae/install/visualization:/home/ojg/ae/install/obs_detect:/home/ojg/ae/install/map_control:/home/ojg/ae/install/lane_selector:/home/ojg/ae/install/f1tenth_gym_ros:/home/ojg/ae/install/evaluation:/opt/ros/humble /usr/bin/cmake --install /home/ojg/ae/build/cimpcc_control
+[1.491s] Level 1:colcon.colcon_core.environment:checking '/home/ojg/ae/install/cimpcc_control' for CMake config files
+[1.492s] Level 1:colcon.colcon_core.shell:create_environment_hook('cimpcc_control', 'cmake_prefix_path')
+[1.492s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ojg/ae/install/cimpcc_control/share/cimpcc_control/hook/cmake_prefix_path.ps1'
+[1.492s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ojg/ae/install/cimpcc_control/share/cimpcc_control/hook/cmake_prefix_path.dsv'
+[1.493s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ojg/ae/install/cimpcc_control/share/cimpcc_control/hook/cmake_prefix_path.sh'
+[1.493s] Level 1:colcon.colcon_core.environment:checking '/home/ojg/ae/install/cimpcc_control/lib'
+[1.493s] Level 1:colcon.colcon_core.environment:checking '/home/ojg/ae/install/cimpcc_control/bin'
+[1.493s] Level 1:colcon.colcon_core.environment:checking '/home/ojg/ae/install/cimpcc_control/lib/pkgconfig/cimpcc_control.pc'
+[1.493s] Level 1:colcon.colcon_core.environment:checking '/home/ojg/ae/install/cimpcc_control/lib/python3.10/site-packages'
+[1.494s] Level 1:colcon.colcon_core.environment:checking '/home/ojg/ae/install/cimpcc_control/bin'
+[1.494s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojg/ae/install/cimpcc_control/share/cimpcc_control/package.ps1'
+[1.494s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ojg/ae/install/cimpcc_control/share/cimpcc_control/package.dsv'
+[1.495s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojg/ae/install/cimpcc_control/share/cimpcc_control/package.sh'
+[1.495s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojg/ae/install/cimpcc_control/share/cimpcc_control/package.bash'
+[1.495s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojg/ae/install/cimpcc_control/share/cimpcc_control/package.zsh'
+[1.495s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ojg/ae/install/cimpcc_control/share/colcon-core/packages/cimpcc_control)
+[1.496s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cimpcc_control)
+[1.496s] Level 1:colcon.colcon_core.environment:checking '/home/ojg/ae/install/cimpcc_control' for CMake module files
+[1.496s] Level 1:colcon.colcon_core.environment:checking '/home/ojg/ae/install/cimpcc_control' for CMake config files
+[1.496s] Level 1:colcon.colcon_core.shell:create_environment_hook('cimpcc_control', 'cmake_prefix_path')
+[1.497s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ojg/ae/install/cimpcc_control/share/cimpcc_control/hook/cmake_prefix_path.ps1'
+[1.497s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ojg/ae/install/cimpcc_control/share/cimpcc_control/hook/cmake_prefix_path.dsv'
+[1.497s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ojg/ae/install/cimpcc_control/share/cimpcc_control/hook/cmake_prefix_path.sh'
+[1.497s] Level 1:colcon.colcon_core.environment:checking '/home/ojg/ae/install/cimpcc_control/lib'
+[1.497s] Level 1:colcon.colcon_core.environment:checking '/home/ojg/ae/install/cimpcc_control/bin'
+[1.497s] Level 1:colcon.colcon_core.environment:checking '/home/ojg/ae/install/cimpcc_control/lib/pkgconfig/cimpcc_control.pc'
+[1.498s] Level 1:colcon.colcon_core.environment:checking '/home/ojg/ae/install/cimpcc_control/lib/python3.10/site-packages'
+[1.498s] Level 1:colcon.colcon_core.environment:checking '/home/ojg/ae/install/cimpcc_control/bin'
+[1.498s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojg/ae/install/cimpcc_control/share/cimpcc_control/package.ps1'
+[1.498s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ojg/ae/install/cimpcc_control/share/cimpcc_control/package.dsv'
+[1.499s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojg/ae/install/cimpcc_control/share/cimpcc_control/package.sh'
+[1.499s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojg/ae/install/cimpcc_control/share/cimpcc_control/package.bash'
+[1.499s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojg/ae/install/cimpcc_control/share/cimpcc_control/package.zsh'
+[1.500s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ojg/ae/install/cimpcc_control/share/colcon-core/packages/cimpcc_control)
+[1.506s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mpcc_control)
+[1.506s] Level 1:colcon.colcon_core.environment:checking '/home/ojg/ae/install/mpcc_control' for CMake module files
+[1.507s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ojg/ae/build/mpcc_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ojg/ae/install/visualization:/home/ojg/ae/install/obs_detect:/home/ojg/ae/install/map_control:/home/ojg/ae/install/lane_selector:/home/ojg/ae/install/f1tenth_gym_ros:/home/ojg/ae/install/evaluation:/opt/ros/humble /usr/bin/cmake --install /home/ojg/ae/build/mpcc_control
+[1.507s] Level 1:colcon.colcon_core.environment:checking '/home/ojg/ae/install/mpcc_control' for CMake config files
+[1.507s] Level 1:colcon.colcon_core.shell:create_environment_hook('mpcc_control', 'cmake_prefix_path')
+[1.507s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ojg/ae/install/mpcc_control/share/mpcc_control/hook/cmake_prefix_path.ps1'
+[1.508s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ojg/ae/install/mpcc_control/share/mpcc_control/hook/cmake_prefix_path.dsv'
+[1.508s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ojg/ae/install/mpcc_control/share/mpcc_control/hook/cmake_prefix_path.sh'
+[1.508s] Level 1:colcon.colcon_core.environment:checking '/home/ojg/ae/install/mpcc_control/lib'
+[1.508s] Level 1:colcon.colcon_core.environment:checking '/home/ojg/ae/install/mpcc_control/bin'
+[1.508s] Level 1:colcon.colcon_core.environment:checking '/home/ojg/ae/install/mpcc_control/lib/pkgconfig/mpcc_control.pc'
+[1.509s] Level 1:colcon.colcon_core.environment:checking '/home/ojg/ae/install/mpcc_control/lib/python3.10/site-packages'
+[1.509s] Level 1:colcon.colcon_core.environment:checking '/home/ojg/ae/install/mpcc_control/bin'
+[1.509s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojg/ae/install/mpcc_control/share/mpcc_control/package.ps1'
+[1.509s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ojg/ae/install/mpcc_control/share/mpcc_control/package.dsv'
+[1.509s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojg/ae/install/mpcc_control/share/mpcc_control/package.sh'
+[1.510s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojg/ae/install/mpcc_control/share/mpcc_control/package.bash'
+[1.510s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojg/ae/install/mpcc_control/share/mpcc_control/package.zsh'
+[1.510s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ojg/ae/install/mpcc_control/share/colcon-core/packages/mpcc_control)
+[1.510s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mpcc_control)
+[1.511s] Level 1:colcon.colcon_core.environment:checking '/home/ojg/ae/install/mpcc_control' for CMake module files
+[1.511s] Level 1:colcon.colcon_core.environment:checking '/home/ojg/ae/install/mpcc_control' for CMake config files
+[1.511s] Level 1:colcon.colcon_core.shell:create_environment_hook('mpcc_control', 'cmake_prefix_path')
+[1.511s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ojg/ae/install/mpcc_control/share/mpcc_control/hook/cmake_prefix_path.ps1'
+[1.511s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ojg/ae/install/mpcc_control/share/mpcc_control/hook/cmake_prefix_path.dsv'
+[1.512s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ojg/ae/install/mpcc_control/share/mpcc_control/hook/cmake_prefix_path.sh'
+[1.512s] Level 1:colcon.colcon_core.environment:checking '/home/ojg/ae/install/mpcc_control/lib'
+[1.512s] Level 1:colcon.colcon_core.environment:checking '/home/ojg/ae/install/mpcc_control/bin'
+[1.512s] Level 1:colcon.colcon_core.environment:checking '/home/ojg/ae/install/mpcc_control/lib/pkgconfig/mpcc_control.pc'
+[1.512s] Level 1:colcon.colcon_core.environment:checking '/home/ojg/ae/install/mpcc_control/lib/python3.10/site-packages'
+[1.512s] Level 1:colcon.colcon_core.environment:checking '/home/ojg/ae/install/mpcc_control/bin'
+[1.512s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojg/ae/install/mpcc_control/share/mpcc_control/package.ps1'
+[1.513s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ojg/ae/install/mpcc_control/share/mpcc_control/package.dsv'
+[1.513s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojg/ae/install/mpcc_control/share/mpcc_control/package.sh'
+[1.513s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojg/ae/install/mpcc_control/share/mpcc_control/package.bash'
+[1.513s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojg/ae/install/mpcc_control/share/mpcc_control/package.zsh'
+[1.514s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ojg/ae/install/mpcc_control/share/colcon-core/packages/mpcc_control)
+[1.696s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ojg/ae/build/obs_detect': PYTHONPATH=/home/ojg/ae/build/obs_detect/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ojg/ae/install/obs_detect/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ojg/ae/build/obs_detect/build --no-deps symlink_data
+[1.706s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ojg/ae/build/visualization': PYTHONPATH=/home/ojg/ae/build/visualization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ojg/ae/install/visualization/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ojg/ae/build/visualization/build --no-deps symlink_data
+[1.739s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ojg/ae/build/evaluation': PYTHONPATH=/home/ojg/ae/build/evaluation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ojg/ae/install/evaluation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ojg/ae/build/evaluation/build --no-deps symlink_data
+[1.769s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ojg/ae/build/f1tenth_gym_ros': PYTHONPATH=/home/ojg/ae/build/f1tenth_gym_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ojg/ae/install/f1tenth_gym_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ojg/ae/build/f1tenth_gym_ros/build --no-deps symlink_data
+[1.902s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ojg/ae/build/lane_selector': PYTHONPATH=/home/ojg/ae/build/lane_selector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ojg/ae/install/lane_selector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ojg/ae/build/lane_selector/build --no-deps symlink_data
+[1.905s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ojg/ae/build/map_control': PYTHONPATH=/home/ojg/ae/build/map_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ojg/ae/install/map_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ojg/ae/build/map_control/build --no-deps symlink_data
+[2.078s] Level 1:colcon.colcon_core.shell:create_environment_hook('visualization', 'pythonpath_develop')
+[2.079s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ojg/ae/build/visualization/share/visualization/hook/pythonpath_develop.ps1'
+[2.080s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ojg/ae/build/visualization' returned '0': PYTHONPATH=/home/ojg/ae/build/visualization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ojg/ae/install/visualization/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ojg/ae/build/visualization/build --no-deps symlink_data
+[2.080s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ojg/ae/build/visualization/share/visualization/hook/pythonpath_develop.dsv'
+[2.081s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ojg/ae/build/visualization/share/visualization/hook/pythonpath_develop.sh'
+[2.081s] Level 1:colcon.colcon_core.environment:checking '/home/ojg/ae/install/visualization' for CMake module files
+[2.082s] Level 1:colcon.colcon_core.environment:checking '/home/ojg/ae/install/visualization' for CMake config files
+[2.082s] Level 1:colcon.colcon_core.environment:checking '/home/ojg/ae/install/visualization/lib'
+[2.082s] Level 1:colcon.colcon_core.environment:checking '/home/ojg/ae/install/visualization/bin'
+[2.082s] Level 1:colcon.colcon_core.environment:checking '/home/ojg/ae/install/visualization/lib/pkgconfig/visualization.pc'
+[2.083s] Level 1:colcon.colcon_core.environment:checking '/home/ojg/ae/install/visualization/lib/python3.10/site-packages'
+[2.083s] Level 1:colcon.colcon_core.shell:create_environment_hook('visualization', 'pythonpath')
+[2.083s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ojg/ae/install/visualization/share/visualization/hook/pythonpath.ps1'
+[2.084s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ojg/ae/install/visualization/share/visualization/hook/pythonpath.dsv'
+[2.084s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ojg/ae/install/visualization/share/visualization/hook/pythonpath.sh'
+[2.084s] Level 1:colcon.colcon_core.environment:checking '/home/ojg/ae/install/visualization/bin'
+[2.084s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(visualization)
+[2.085s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojg/ae/install/visualization/share/visualization/package.ps1'
+[2.085s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ojg/ae/install/visualization/share/visualization/package.dsv'
+[2.085s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojg/ae/install/visualization/share/visualization/package.sh'
+[2.086s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojg/ae/install/visualization/share/visualization/package.bash'
+[2.087s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojg/ae/install/visualization/share/visualization/package.zsh'
+[2.087s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ojg/ae/install/visualization/share/colcon-core/packages/visualization)
+[2.091s] Level 1:colcon.colcon_core.shell:create_environment_hook('evaluation', 'pythonpath_develop')
+[2.092s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ojg/ae/build/evaluation/share/evaluation/hook/pythonpath_develop.ps1'
+[2.092s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ojg/ae/build/evaluation' returned '0': PYTHONPATH=/home/ojg/ae/build/evaluation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ojg/ae/install/evaluation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ojg/ae/build/evaluation/build --no-deps symlink_data
+[2.092s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ojg/ae/build/evaluation/share/evaluation/hook/pythonpath_develop.dsv'
+[2.092s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ojg/ae/build/evaluation/share/evaluation/hook/pythonpath_develop.sh'
+[2.093s] Level 1:colcon.colcon_core.environment:checking '/home/ojg/ae/install/evaluation' for CMake module files
+[2.093s] Level 1:colcon.colcon_core.environment:checking '/home/ojg/ae/install/evaluation' for CMake config files
+[2.093s] Level 1:colcon.colcon_core.environment:checking '/home/ojg/ae/install/evaluation/lib'
+[2.093s] Level 1:colcon.colcon_core.environment:checking '/home/ojg/ae/install/evaluation/bin'
+[2.093s] Level 1:colcon.colcon_core.environment:checking '/home/ojg/ae/install/evaluation/lib/pkgconfig/evaluation.pc'
+[2.094s] Level 1:colcon.colcon_core.environment:checking '/home/ojg/ae/install/evaluation/lib/python3.10/site-packages'
+[2.094s] Level 1:colcon.colcon_core.shell:create_environment_hook('evaluation', 'pythonpath')
+[2.094s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ojg/ae/install/evaluation/share/evaluation/hook/pythonpath.ps1'
+[2.094s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ojg/ae/install/evaluation/share/evaluation/hook/pythonpath.dsv'
+[2.094s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ojg/ae/install/evaluation/share/evaluation/hook/pythonpath.sh'
+[2.095s] Level 1:colcon.colcon_core.environment:checking '/home/ojg/ae/install/evaluation/bin'
+[2.095s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(evaluation)
+[2.095s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojg/ae/install/evaluation/share/evaluation/package.ps1'
+[2.095s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ojg/ae/install/evaluation/share/evaluation/package.dsv'
+[2.095s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojg/ae/install/evaluation/share/evaluation/package.sh'
+[2.096s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojg/ae/install/evaluation/share/evaluation/package.bash'
+[2.096s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojg/ae/install/evaluation/share/evaluation/package.zsh'
+[2.096s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ojg/ae/install/evaluation/share/colcon-core/packages/evaluation)
+[2.114s] Level 1:colcon.colcon_core.shell:create_environment_hook('obs_detect', 'pythonpath_develop')
+[2.115s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ojg/ae/build/obs_detect/share/obs_detect/hook/pythonpath_develop.ps1'
+[2.115s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ojg/ae/build/obs_detect' returned '0': PYTHONPATH=/home/ojg/ae/build/obs_detect/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ojg/ae/install/obs_detect/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ojg/ae/build/obs_detect/build --no-deps symlink_data
+[2.116s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ojg/ae/build/obs_detect/share/obs_detect/hook/pythonpath_develop.dsv'
+[2.116s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ojg/ae/build/obs_detect/share/obs_detect/hook/pythonpath_develop.sh'
+[2.117s] Level 1:colcon.colcon_core.environment:checking '/home/ojg/ae/install/obs_detect' for CMake module files
+[2.117s] Level 1:colcon.colcon_core.environment:checking '/home/ojg/ae/install/obs_detect' for CMake config files
+[2.118s] Level 1:colcon.colcon_core.environment:checking '/home/ojg/ae/install/obs_detect/lib'
+[2.118s] Level 1:colcon.colcon_core.environment:checking '/home/ojg/ae/install/obs_detect/bin'
+[2.118s] Level 1:colcon.colcon_core.environment:checking '/home/ojg/ae/install/obs_detect/lib/pkgconfig/obs_detect.pc'
+[2.118s] Level 1:colcon.colcon_core.environment:checking '/home/ojg/ae/install/obs_detect/lib/python3.10/site-packages'
+[2.118s] Level 1:colcon.colcon_core.shell:create_environment_hook('obs_detect', 'pythonpath')
+[2.119s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ojg/ae/install/obs_detect/share/obs_detect/hook/pythonpath.ps1'
+[2.119s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ojg/ae/install/obs_detect/share/obs_detect/hook/pythonpath.dsv'
+[2.119s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ojg/ae/install/obs_detect/share/obs_detect/hook/pythonpath.sh'
+[2.120s] Level 1:colcon.colcon_core.environment:checking '/home/ojg/ae/install/obs_detect/bin'
+[2.120s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(obs_detect)
+[2.120s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojg/ae/install/obs_detect/share/obs_detect/package.ps1'
+[2.121s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ojg/ae/install/obs_detect/share/obs_detect/package.dsv'
+[2.122s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojg/ae/install/obs_detect/share/obs_detect/package.sh'
+[2.122s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojg/ae/install/obs_detect/share/obs_detect/package.bash'
+[2.122s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojg/ae/install/obs_detect/share/obs_detect/package.zsh'
+[2.123s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ojg/ae/install/obs_detect/share/colcon-core/packages/obs_detect)
+[2.236s] Level 1:colcon.colcon_core.shell:create_environment_hook('f1tenth_gym_ros', 'pythonpath_develop')
+[2.236s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ojg/ae/build/f1tenth_gym_ros/share/f1tenth_gym_ros/hook/pythonpath_develop.ps1'
+[2.237s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ojg/ae/build/f1tenth_gym_ros/share/f1tenth_gym_ros/hook/pythonpath_develop.dsv'
+[2.237s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ojg/ae/build/f1tenth_gym_ros' returned '0': PYTHONPATH=/home/ojg/ae/build/f1tenth_gym_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ojg/ae/install/f1tenth_gym_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ojg/ae/build/f1tenth_gym_ros/build --no-deps symlink_data
+[2.237s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ojg/ae/build/f1tenth_gym_ros/share/f1tenth_gym_ros/hook/pythonpath_develop.sh'
+[2.238s] Level 1:colcon.colcon_core.environment:checking '/home/ojg/ae/install/f1tenth_gym_ros' for CMake module files
+[2.238s] Level 1:colcon.colcon_core.environment:checking '/home/ojg/ae/install/f1tenth_gym_ros' for CMake config files
+[2.238s] Level 1:colcon.colcon_core.environment:checking '/home/ojg/ae/install/f1tenth_gym_ros/lib'
+[2.238s] Level 1:colcon.colcon_core.environment:checking '/home/ojg/ae/install/f1tenth_gym_ros/bin'
+[2.238s] Level 1:colcon.colcon_core.environment:checking '/home/ojg/ae/install/f1tenth_gym_ros/lib/pkgconfig/f1tenth_gym_ros.pc'
+[2.239s] Level 1:colcon.colcon_core.environment:checking '/home/ojg/ae/install/f1tenth_gym_ros/lib/python3.10/site-packages'
+[2.239s] Level 1:colcon.colcon_core.shell:create_environment_hook('f1tenth_gym_ros', 'pythonpath')
+[2.239s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ojg/ae/install/f1tenth_gym_ros/share/f1tenth_gym_ros/hook/pythonpath.ps1'
+[2.239s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ojg/ae/install/f1tenth_gym_ros/share/f1tenth_gym_ros/hook/pythonpath.dsv'
+[2.239s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ojg/ae/install/f1tenth_gym_ros/share/f1tenth_gym_ros/hook/pythonpath.sh'
+[2.239s] Level 1:colcon.colcon_core.environment:checking '/home/ojg/ae/install/f1tenth_gym_ros/bin'
+[2.240s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(f1tenth_gym_ros)
+[2.240s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojg/ae/install/f1tenth_gym_ros/share/f1tenth_gym_ros/package.ps1'
+[2.240s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ojg/ae/install/f1tenth_gym_ros/share/f1tenth_gym_ros/package.dsv'
+[2.240s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojg/ae/install/f1tenth_gym_ros/share/f1tenth_gym_ros/package.sh'
+[2.241s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojg/ae/install/f1tenth_gym_ros/share/f1tenth_gym_ros/package.bash'
+[2.241s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojg/ae/install/f1tenth_gym_ros/share/f1tenth_gym_ros/package.zsh'
+[2.241s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ojg/ae/install/f1tenth_gym_ros/share/colcon-core/packages/f1tenth_gym_ros)
+[2.346s] Level 1:colcon.colcon_core.shell:create_environment_hook('lane_selector', 'pythonpath_develop')
+[2.346s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ojg/ae/build/lane_selector/share/lane_selector/hook/pythonpath_develop.ps1'
+[2.346s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ojg/ae/build/lane_selector' returned '0': PYTHONPATH=/home/ojg/ae/build/lane_selector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ojg/ae/install/lane_selector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ojg/ae/build/lane_selector/build --no-deps symlink_data
+[2.347s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ojg/ae/build/lane_selector/share/lane_selector/hook/pythonpath_develop.dsv'
+[2.347s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ojg/ae/build/lane_selector/share/lane_selector/hook/pythonpath_develop.sh'
+[2.347s] Level 1:colcon.colcon_core.environment:checking '/home/ojg/ae/install/lane_selector' for CMake module files
+[2.348s] Level 1:colcon.colcon_core.environment:checking '/home/ojg/ae/install/lane_selector' for CMake config files
+[2.348s] Level 1:colcon.colcon_core.environment:checking '/home/ojg/ae/install/lane_selector/lib'
+[2.348s] Level 1:colcon.colcon_core.environment:checking '/home/ojg/ae/install/lane_selector/bin'
+[2.348s] Level 1:colcon.colcon_core.environment:checking '/home/ojg/ae/install/lane_selector/lib/pkgconfig/lane_selector.pc'
+[2.348s] Level 1:colcon.colcon_core.environment:checking '/home/ojg/ae/install/lane_selector/lib/python3.10/site-packages'
+[2.348s] Level 1:colcon.colcon_core.shell:create_environment_hook('lane_selector', 'pythonpath')
+[2.348s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ojg/ae/install/lane_selector/share/lane_selector/hook/pythonpath.ps1'
+[2.348s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ojg/ae/install/lane_selector/share/lane_selector/hook/pythonpath.dsv'
+[2.349s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ojg/ae/install/lane_selector/share/lane_selector/hook/pythonpath.sh'
+[2.349s] Level 1:colcon.colcon_core.environment:checking '/home/ojg/ae/install/lane_selector/bin'
+[2.349s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lane_selector)
+[2.349s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojg/ae/install/lane_selector/share/lane_selector/package.ps1'
+[2.350s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ojg/ae/install/lane_selector/share/lane_selector/package.dsv'
+[2.350s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojg/ae/install/lane_selector/share/lane_selector/package.sh'
+[2.350s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojg/ae/install/lane_selector/share/lane_selector/package.bash'
+[2.350s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojg/ae/install/lane_selector/share/lane_selector/package.zsh'
+[2.351s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ojg/ae/install/lane_selector/share/colcon-core/packages/lane_selector)
+[2.358s] Level 1:colcon.colcon_core.shell:create_environment_hook('map_control', 'pythonpath_develop')
+[2.358s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ojg/ae/build/map_control/share/map_control/hook/pythonpath_develop.ps1'
+[2.359s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ojg/ae/build/map_control' returned '0': PYTHONPATH=/home/ojg/ae/build/map_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ojg/ae/install/map_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ojg/ae/build/map_control/build --no-deps symlink_data
+[2.359s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ojg/ae/build/map_control/share/map_control/hook/pythonpath_develop.dsv'
+[2.360s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ojg/ae/build/map_control/share/map_control/hook/pythonpath_develop.sh'
+[2.361s] Level 1:colcon.colcon_core.environment:checking '/home/ojg/ae/install/map_control' for CMake module files
+[2.361s] Level 1:colcon.colcon_core.environment:checking '/home/ojg/ae/install/map_control' for CMake config files
+[2.362s] Level 1:colcon.colcon_core.environment:checking '/home/ojg/ae/install/map_control/lib'
+[2.362s] Level 1:colcon.colcon_core.environment:checking '/home/ojg/ae/install/map_control/bin'
+[2.362s] Level 1:colcon.colcon_core.environment:checking '/home/ojg/ae/install/map_control/lib/pkgconfig/map_control.pc'
+[2.362s] Level 1:colcon.colcon_core.environment:checking '/home/ojg/ae/install/map_control/lib/python3.10/site-packages'
+[2.362s] Level 1:colcon.colcon_core.shell:create_environment_hook('map_control', 'pythonpath')
+[2.362s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ojg/ae/install/map_control/share/map_control/hook/pythonpath.ps1'
+[2.362s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ojg/ae/install/map_control/share/map_control/hook/pythonpath.dsv'
+[2.363s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ojg/ae/install/map_control/share/map_control/hook/pythonpath.sh'
+[2.363s] Level 1:colcon.colcon_core.environment:checking '/home/ojg/ae/install/map_control/bin'
+[2.363s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(map_control)
+[2.363s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojg/ae/install/map_control/share/map_control/package.ps1'
+[2.363s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ojg/ae/install/map_control/share/map_control/package.dsv'
+[2.364s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojg/ae/install/map_control/share/map_control/package.sh'
+[2.364s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojg/ae/install/map_control/share/map_control/package.bash'
+[2.364s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojg/ae/install/map_control/share/map_control/package.zsh'
+[2.364s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ojg/ae/install/map_control/share/colcon-core/packages/map_control)
+[2.365s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.365s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.365s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.365s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.369s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.369s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.369s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.381s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.381s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ojg/ae/install/local_setup.ps1'
+[2.382s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ojg/ae/install/_local_setup_util_ps1.py'
+[2.383s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ojg/ae/install/setup.ps1'
+[2.384s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ojg/ae/install/local_setup.sh'
+[2.384s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ojg/ae/install/_local_setup_util_sh.py'
+[2.384s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ojg/ae/install/setup.sh'
+[2.385s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ojg/ae/install/local_setup.bash'
+[2.385s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ojg/ae/install/setup.bash'
+[2.386s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ojg/ae/install/local_setup.zsh'
+[2.386s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ojg/ae/install/setup.zsh'

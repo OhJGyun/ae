@@ -39,6 +39,7 @@ class MAP_Controller:
                 loop_rate,
                 LUT_name,
                 state_machine_rate,
+                lat_accel_max = 0.0,
 
                 logger_info = logging.info,
                 logger_warn = logging.warn
@@ -85,6 +86,7 @@ class MAP_Controller:
         self.curvature_waypoints = 0
         self.d_vs = np.zeros(10)
         self.acceleration_command = 0
+        self.lat_accel_max = float(lat_accel_max)
 
         self.logger_info = logger_info
         self.logger_warn = logger_warn
@@ -92,7 +94,7 @@ class MAP_Controller:
         self.steer_lookup = LookupSteerAngle(self.LUT_name, logger_info)
 
     # main loop
-    def main_loop(self, state, position_in_map, waypoint_array_in_map, speed_now, opponent, position_in_map_frenet, acc_now, track_length):
+    def main_loop(self, state, position_in_map, waypoint_array_in_map, speed_now, opponent, position_in_map_frenet, acc_now, track_length, segment_start_idx=0):
         # Updating parameters from manager
         self.state = state
         self.position_in_map = position_in_map
@@ -102,6 +104,7 @@ class MAP_Controller:
         self.position_in_map_frenet = position_in_map_frenet
         self.acc_now = acc_now
         self.track_length = track_length
+        self.segment_start_idx = segment_start_idx
         ## PREPROCESS ##
         # speed vector
         yaw = self.position_in_map[0, 2]
@@ -182,13 +185,15 @@ class MAP_Controller:
         steering_angle = self.speed_steer_scaling(steering_angle, speed_for_lu)
 
         # modifying steer based on velocity
-        steering_angle *= np.clip(1 + (self.speed_now/10), 1, 1.25)
+        steering_angle *= np.clip(1 + (self.speed_now/10), 1, 1.15)
 
-        # limit change of steering angle
-        threshold = 0.4
+        # limit change of steering angle (rate limiting)
+        threshold = 0.55  # max steering change per cycle (rad)
         if abs(steering_angle - self.curr_steering_angle) > threshold:
-            self.logger_info(f"[MAP Controller] steering angle clipped")
-        steering_angle = np.clip(steering_angle, self.curr_steering_angle - threshold, self.curr_steering_angle + threshold)
+            # 스티어링 레이트 리미팅 발생 로그 / Log when rate limiting occurs
+            clipped_value = np.clip(steering_angle, self.curr_steering_angle - threshold, self.curr_steering_angle + threshold)
+            self.logger_info(f"[MAP Controller] STEERING RATE LIMIT: requested={steering_angle:.3f} rad, current={self.curr_steering_angle:.3f} rad, clipped={clipped_value:.3f} rad (max_delta={threshold:.3f})")
+            steering_angle = clipped_value
         self.curr_steering_angle = steering_angle
         return steering_angle
 
@@ -253,6 +258,20 @@ class MAP_Controller:
             speed_command = global_speed
 
         speed_command = self.speed_adjust_lat_err(speed_command, lat_e_norm)
+
+        # 🔧 RESTORED: Curvature-based speed limiting using kappa from CSV
+        try:
+            kappa_here = abs(float(self.waypoint_array_in_map[idx_la_position, 5]))
+        except Exception:
+            kappa_here = 0
+            self.logger_warn("[MAP Controller] curvature could not be extracted, set to 0")
+
+        if kappa_here > 1e-6 and self.lat_accel_max > 0.0:
+            v_max_curv = float(np.sqrt(self.lat_accel_max / max(kappa_here, 1e-6)))
+            speed_command = float(min(speed_command, v_max_curv))
+
+        # 🔧 RESTORED: Heading-based speed adjustment using psi from CSV
+        speed_command = self.speed_adjust_heading(speed_command)
 
         return speed_command
 
@@ -362,20 +381,48 @@ class MAP_Controller:
             global_speed: the speed we want to follow
         """
 
-        heading = self.position_in_map[0,2]
-        map_heading = self.waypoint_array_in_map[self.idx_nearest_waypoint, 6]
+        # If idx_nearest_waypoint not yet calculated, compute it now
+        if self.idx_nearest_waypoint is None:
+            self.idx_nearest_waypoint = self.nearest_waypoint(
+                self.position_in_map[0, :2], self.waypoint_array_in_map[:, :2])
+            if np.isnan(self.idx_nearest_waypoint):
+                self.idx_nearest_waypoint = 0
+
+        heading = float(self.position_in_map[0,2])
+
+        # Ensure idx is integer and within bounds of segment
+        idx = int(self.idx_nearest_waypoint)
+        idx = min(idx, len(self.waypoint_array_in_map) - 1)
+
+        # Get map heading from CSV (assuming ROS convention: zero = east/x-axis)
+        map_heading = float(self.waypoint_array_in_map[idx, 6])
+
         if abs(heading - map_heading) > np.pi: # resolves wrapping issues
             heading_error = 2*np.pi - abs(heading- map_heading)
         else:
             heading_error = abs(heading - map_heading)
 
-        if heading_error < np.pi/9: # 20 degrees error is okay
+        if heading_error < np.pi/9: # 20 degrees error is okay (< 20 deg)
             return speed_command
-        elif heading_error < np.pi/2:
+        elif heading_error < np.pi/2:  # 20-90 degrees
             scaler = 1 - 0.5* heading_error/(np.pi/2) # scale linearly to 0.5x
-        else:
+        else:  # > 90 degrees
             scaler = 0.5
-        self.logger_info(f"[MAP Controller] heading error decreasing velocity by {scaler}")
+
+        # Debug: log only when significant (throttle to every 2 seconds)
+        if not hasattr(self, '_last_heading_log_time'):
+            self._last_heading_log_time = 0
+        import time
+        current_time = time.time()
+        if current_time - self._last_heading_log_time > 2.0:
+            self.logger_info(
+                f"[Heading Debug] vehicle_heading={heading:.3f}rad ({np.degrees(heading):.1f}°), "
+                f"map_heading={map_heading:.3f}rad ({np.degrees(map_heading):.1f}°), "
+                f"heading_error={heading_error:.3f}rad ({np.degrees(heading_error):.1f}°), "
+                f"scaler={scaler:.3f}, idx={idx}"
+            )
+            self._last_heading_log_time = current_time
+
         return speed_command * scaler
 
     def nearest_waypoint(self, position, waypoints):
@@ -387,7 +434,7 @@ class MAP_Controller:
         """
         position_array = np.array([position]*len(waypoints))
         distances_to_position = np.linalg.norm(abs(position_array - waypoints), axis=1)
-        return np.argmin(distances_to_position)
+        return int(np.argmin(distances_to_position))
 
         # Alternative (commented): Sliding-window nearest waypoint around previous index (±K)
         # -------------------------------------------------------------------------------
@@ -449,4 +496,22 @@ class MAP_Controller:
         extended_waypoints = np.vstack([waypoints, waypoints])
         target_index = np.searchsorted(extended_s, target_s, side='left')
         target_index = min(target_index, len(extended_waypoints) - 1)
+
+        # DEBUG: Log lookahead index difference
+        final_index = target_index % len(waypoints)
+        idx_diff = final_index - current_index
+        if idx_diff < 0:
+            idx_diff += len(waypoints)  # Handle wraparound
+
+        if hasattr(self, '_debug_ld_counter'):
+            self._debug_ld_counter += 1
+        else:
+            self._debug_ld_counter = 0
+
+        if self._debug_ld_counter % 20 == 0:  # Log every 20 calls (~0.5s at 40Hz)
+            self.logger_info(
+                f"[LD] curr_idx={current_index}, target_idx={final_index}, "
+                f"idx_diff={idx_diff}, LD={distance:.2f}m"
+            )
+
         return np.array(extended_waypoints[target_index % len(waypoints)])

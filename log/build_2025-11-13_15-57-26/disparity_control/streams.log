@@ -1,0 +1,83 @@
+[0.029s] Invoking command in '/home/ojg/ae/build/disparity_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ojg/ae/install/visualization:/home/ojg/ae/install/obs_detect:/home/ojg/ae/install/map_control:/home/ojg/ae/install/lane_selector:/home/ojg/ae/install/f1tenth_gym_ros:/home/ojg/ae/install/evaluation:/opt/ros/humble /usr/bin/cmake /home/ojg/ae/src/disparity_control -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ojg/ae/install/disparity_control
+[1.063s] -- The C compiler identification is GNU 11.4.0
+[1.064s] -- The CXX compiler identification is GNU 11.4.0
+[1.064s] -- Detecting C compiler ABI info
+[1.064s] -- Detecting C compiler ABI info - done
+[1.064s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.064s] -- Detecting C compile features
+[1.064s] -- Detecting C compile features - done
+[1.064s] -- Detecting CXX compiler ABI info
+[1.064s] -- Detecting CXX compiler ABI info - done
+[1.064s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.064s] -- Detecting CXX compile features
+[1.064s] -- Detecting CXX compile features - done
+[1.064s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.065s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.065s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.065s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[1.065s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.065s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.065s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.065s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.065s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.065s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.065s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.065s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.065s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.065s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.065s] -- Looking for pthread.h
+[1.065s] -- Looking for pthread.h - found
+[1.065s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.065s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.065s] -- Found Threads: TRUE  
+[1.066s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.066s] -- Found ackermann_msgs: 2.0.2 (/opt/ros/humble/share/ackermann_msgs/cmake)
+[1.066s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.066s] -- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+[1.066s] -- Found tf2: 0.25.16 (/opt/ros/humble/share/tf2/cmake)
+[1.066s] -- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.070s] -- Found tf2_geometry_msgs: 0.25.16 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.079s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.080s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.080s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.089s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.154s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.154s] -- Configured cppcheck include dirs: 
+[1.154s] -- Configured cppcheck exclude dirs and/or files: 
+[1.155s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.155s] -- Added test 'lint_cmake' to check CMake code style
+[1.155s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.156s] -- Added test 'uncrustify' to check C / C++ code style
+[1.156s] -- Configured uncrustify additional arguments: 
+[1.156s] -- Added test 'xmllint' to check XML markup files
+[1.157s] -- Configuring done
+[1.164s] -- Generating done
+[1.167s] -- Build files have been written to: /home/ojg/ae/build/disparity_control
+[1.246s] Invoked command in '/home/ojg/ae/build/disparity_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ojg/ae/install/visualization:/home/ojg/ae/install/obs_detect:/home/ojg/ae/install/map_control:/home/ojg/ae/install/lane_selector:/home/ojg/ae/install/f1tenth_gym_ros:/home/ojg/ae/install/evaluation:/opt/ros/humble /usr/bin/cmake /home/ojg/ae/src/disparity_control -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ojg/ae/install/disparity_control
+[1.248s] Invoking command in '/home/ojg/ae/build/disparity_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ojg/ae/install/visualization:/home/ojg/ae/install/obs_detect:/home/ojg/ae/install/map_control:/home/ojg/ae/install/lane_selector:/home/ojg/ae/install/f1tenth_gym_ros:/home/ojg/ae/install/evaluation:/opt/ros/humble /usr/bin/cmake --build /home/ojg/ae/build/disparity_control -- -j18 -l18
+[1.278s] [ 50%] [32mBuilding CXX object CMakeFiles/disparity_autodrive_node.dir/src/disparity_autodrive_node.cpp.o[0m
+[12.793s] [100%] [32m[1mLinking CXX executable disparity_autodrive_node[0m
+[12.949s] [100%] Built target disparity_autodrive_node
+[12.958s] Invoked command in '/home/ojg/ae/build/disparity_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ojg/ae/install/visualization:/home/ojg/ae/install/obs_detect:/home/ojg/ae/install/map_control:/home/ojg/ae/install/lane_selector:/home/ojg/ae/install/f1tenth_gym_ros:/home/ojg/ae/install/evaluation:/opt/ros/humble /usr/bin/cmake --build /home/ojg/ae/build/disparity_control -- -j18 -l18
+[12.959s] Invoking command in '/home/ojg/ae/build/disparity_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ojg/ae/install/visualization:/home/ojg/ae/install/obs_detect:/home/ojg/ae/install/map_control:/home/ojg/ae/install/lane_selector:/home/ojg/ae/install/f1tenth_gym_ros:/home/ojg/ae/install/evaluation:/opt/ros/humble /usr/bin/cmake --install /home/ojg/ae/build/disparity_control
+[12.965s] -- Install configuration: "Release"
+[12.965s] -- Execute custom install script
+[12.965s] -- Symlinking: /home/ojg/ae/install/disparity_control/lib/disparity_control/disparity_autodrive_node
+[12.972s] -- Symlinking: /home/ojg/ae/install/disparity_control/share/disparity_control//launch/disparity_autodrive.launch.py
+[12.978s] -- Symlinking: /home/ojg/ae/install/disparity_control/share/disparity_control//config/disparity_params.yaml
+[12.985s] -- Symlinking: /home/ojg/ae/install/disparity_control/share/ament_index/resource_index/package_run_dependencies/disparity_control
+[12.990s] -- Symlinking: /home/ojg/ae/install/disparity_control/share/ament_index/resource_index/parent_prefix_path/disparity_control
+[12.996s] -- Symlinking: /home/ojg/ae/install/disparity_control/share/disparity_control/environment/ament_prefix_path.sh
+[13.002s] -- Symlinking: /home/ojg/ae/install/disparity_control/share/disparity_control/environment/ament_prefix_path.dsv
+[13.009s] -- Symlinking: /home/ojg/ae/install/disparity_control/share/disparity_control/environment/path.sh
+[13.014s] -- Symlinking: /home/ojg/ae/install/disparity_control/share/disparity_control/environment/path.dsv
+[13.019s] -- Symlinking: /home/ojg/ae/install/disparity_control/share/disparity_control/local_setup.bash
+[13.025s] -- Symlinking: /home/ojg/ae/install/disparity_control/share/disparity_control/local_setup.sh
+[13.030s] -- Symlinking: /home/ojg/ae/install/disparity_control/share/disparity_control/local_setup.zsh
+[13.036s] -- Symlinking: /home/ojg/ae/install/disparity_control/share/disparity_control/local_setup.dsv
+[13.041s] -- Symlinking: /home/ojg/ae/install/disparity_control/share/disparity_control/package.dsv
+[13.046s] -- Symlinking: /home/ojg/ae/install/disparity_control/share/ament_index/resource_index/packages/disparity_control
+[13.052s] -- Symlinking: /home/ojg/ae/install/disparity_control/share/disparity_control/cmake/disparity_controlConfig.cmake
+[13.057s] -- Symlinking: /home/ojg/ae/install/disparity_control/share/disparity_control/cmake/disparity_controlConfig-version.cmake
+[13.064s] -- Symlinking: /home/ojg/ae/install/disparity_control/share/disparity_control/package.xml
+[13.073s] Invoked command in '/home/ojg/ae/build/disparity_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ojg/ae/install/visualization:/home/ojg/ae/install/obs_detect:/home/ojg/ae/install/map_control:/home/ojg/ae/install/lane_selector:/home/ojg/ae/install/f1tenth_gym_ros:/home/ojg/ae/install/evaluation:/opt/ros/humble /usr/bin/cmake --install /home/ojg/ae/build/disparity_control

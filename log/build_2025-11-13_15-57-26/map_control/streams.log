@@ -1,0 +1,31 @@
+[1.736s] Invoking command in '/home/ojg/ae/build/map_control': PYTHONPATH=/home/ojg/ae/build/map_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ojg/ae/install/map_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ojg/ae/build/map_control/build --no-deps symlink_data
+[1.963s] running develop
+[2.206s] running egg_info
+[2.207s] creating map_control.egg-info
+[2.207s] writing map_control.egg-info/PKG-INFO
+[2.207s] writing dependency_links to map_control.egg-info/dependency_links.txt
+[2.208s] writing entry points to map_control.egg-info/entry_points.txt
+[2.208s] writing requirements to map_control.egg-info/requires.txt
+[2.208s] writing top-level names to map_control.egg-info/top_level.txt
+[2.208s] writing manifest file 'map_control.egg-info/SOURCES.txt'
+[2.210s] reading manifest file 'map_control.egg-info/SOURCES.txt'
+[2.211s] writing manifest file 'map_control.egg-info/SOURCES.txt'
+[2.213s] running build_ext
+[2.213s] Creating /home/ojg/ae/install/map_control/lib/python3.10/site-packages/map-control.egg-link (link to .)
+[2.214s] Installing map_controller script to /home/ojg/ae/install/map_control/lib/map_control
+[2.214s] 
+[2.214s] Installed /home/ojg/ae/build/map_control
+[2.214s] running symlink_data
+[2.215s] creating /home/ojg/ae/install/map_control/share/ament_index
+[2.215s] creating /home/ojg/ae/install/map_control/share/ament_index/resource_index
+[2.215s] creating /home/ojg/ae/install/map_control/share/ament_index/resource_index/packages
+[2.215s] symbolically linking /home/ojg/ae/build/map_control/resource/map_control -> /home/ojg/ae/install/map_control/share/ament_index/resource_index/packages
+[2.215s] symbolically linking /home/ojg/ae/build/map_control/package.xml -> /home/ojg/ae/install/map_control/share/map_control
+[2.215s] creating /home/ojg/ae/install/map_control/share/map_control/launch
+[2.215s] symbolically linking /home/ojg/ae/build/map_control/launch/map_controller_launch.py -> /home/ojg/ae/install/map_control/share/map_control/launch
+[2.215s] creating /home/ojg/ae/install/map_control/share/map_control/config
+[2.215s] symbolically linking /home/ojg/ae/build/map_control/config/map_control_params.yaml -> /home/ojg/ae/install/map_control/share/map_control/config
+[2.215s] creating /home/ojg/ae/install/map_control/share/map_control/config/steering_lut
+[2.216s] symbolically linking /home/ojg/ae/build/map_control/config/steering_lut/NUC2_pacejka_lookup_table.csv -> /home/ojg/ae/install/map_control/share/map_control/config/steering_lut
+[2.216s] symbolically linking /home/ojg/ae/build/map_control/config/steering_lut/SIM_linear_lookup_table.csv -> /home/ojg/ae/install/map_control/share/map_control/config/steering_lut
+[2.279s] Invoked command in '/home/ojg/ae/build/map_control' returned '0': PYTHONPATH=/home/ojg/ae/build/map_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ojg/ae/install/map_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ojg/ae/build/map_control/build --no-deps symlink_data

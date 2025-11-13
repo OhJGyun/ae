@@ -1,0 +1,18 @@
+[1.554s] Invoking command in '/home/ojg/ae/build/obs_detect': PYTHONPATH=/home/ojg/ae/build/obs_detect/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ojg/ae/install/obs_detect/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ojg/ae/build/obs_detect/build --no-deps symlink_data
+[1.807s] running develop
+[1.948s] running egg_info
+[1.949s] writing obs_detect.egg-info/PKG-INFO
+[1.949s] writing dependency_links to obs_detect.egg-info/dependency_links.txt
+[1.949s] writing entry points to obs_detect.egg-info/entry_points.txt
+[1.949s] writing requirements to obs_detect.egg-info/requires.txt
+[1.949s] writing top-level names to obs_detect.egg-info/top_level.txt
+[1.950s] reading manifest file 'obs_detect.egg-info/SOURCES.txt'
+[1.951s] writing manifest file 'obs_detect.egg-info/SOURCES.txt'
+[1.951s] running build_ext
+[1.952s] Creating /home/ojg/ae/install/obs_detect/lib/python3.10/site-packages/obs-detect.egg-link (link to .)
+[1.952s] Installing boundary_viz_node script to /home/ojg/ae/install/obs_detect/lib/obs_detect
+[1.952s] Installing ring_obs_node script to /home/ojg/ae/install/obs_detect/lib/obs_detect
+[1.952s] 
+[1.952s] Installed /home/ojg/ae/build/obs_detect
+[1.952s] running symlink_data
+[1.973s] Invoked command in '/home/ojg/ae/build/obs_detect' returned '0': PYTHONPATH=/home/ojg/ae/build/obs_detect/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ojg/ae/install/obs_detect/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ojg/ae/build/obs_detect/build --no-deps symlink_data

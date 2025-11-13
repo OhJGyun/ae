@@ -1,0 +1,218 @@
+Section-based Lap Timer Log
+Started at: 2025-11-13 16:42:17
+================================================================================
+
+[2025-11-13 16:43:28.239] Sector 3: 6.4402s (avg speed: 5.24 m/s)
+[2025-11-13 16:43:35.739] Sector 4: 7.5000s (avg speed: 8.99 m/s)
+[2025-11-13 16:43:39.407] Sector 1: 3.6683s (avg speed: 6.56 m/s)
+[2025-11-13 16:43:46.739] Sector 2: 7.3316s (avg speed: 4.98 m/s)
+[2025-11-13 16:43:53.180] Sector 3: 6.4402s (avg speed: 5.24 m/s)
+  Best: 6.4402s, Avg: 6.4402s, Laps: 2
+[2025-11-13 16:44:00.661] Sector 4: 7.4801s (avg speed: 8.97 m/s)
+  Best: 7.4801s, Avg: 7.4900s, Laps: 2
+[2025-11-13 16:44:04.340] Sector 1: 3.6799s (avg speed: 6.55 m/s)
+  Best: 3.6683s, Avg: 3.6741s, Laps: 2
+[2025-11-13 16:44:11.647] Sector 2: 7.3081s (avg speed: 4.96 m/s)
+  Best: 7.3081s, Avg: 7.3198s, Laps: 2
+[2025-11-13 16:44:18.087] Sector 3: 6.4399s (avg speed: 5.25 m/s)
+  Best: 6.4399s, Avg: 6.4401s, Laps: 3
+[2025-11-13 16:44:25.608] Sector 4: 7.5201s (avg speed: 8.96 m/s)
+  Best: 7.4801s, Avg: 7.5001s, Laps: 3
+[2025-11-13 16:44:29.287] Sector 1: 3.6800s (avg speed: 6.55 m/s)
+  Best: 3.6683s, Avg: 3.6761s, Laps: 3
+[2025-11-13 16:44:36.599] Sector 2: 7.3116s (avg speed: 4.96 m/s)
+  Best: 7.3081s, Avg: 7.3171s, Laps: 3
+[2025-11-13 16:44:43.039] Sector 3: 6.4401s (avg speed: 5.24 m/s)
+  Best: 6.4399s, Avg: 6.4401s, Laps: 4
+[2025-11-13 16:44:50.549] Sector 4: 7.5089s (avg speed: 8.97 m/s)
+  Best: 7.4801s, Avg: 7.5023s, Laps: 4
+[2025-11-13 16:44:54.228] Sector 1: 3.6802s (avg speed: 6.55 m/s)
+  Best: 3.6683s, Avg: 3.6771s, Laps: 4
+[2025-11-13 16:45:01.548] Sector 2: 7.3196s (avg speed: 4.98 m/s)
+  Best: 7.3081s, Avg: 7.3177s, Laps: 4
+[2025-11-13 16:45:07.987] Sector 3: 6.4396s (avg speed: 5.25 m/s)
+  Best: 6.4396s, Avg: 6.4400s, Laps: 5
+[2025-11-13 16:45:15.488] Sector 4: 7.5004s (avg speed: 8.97 m/s)
+  Best: 7.4801s, Avg: 7.5019s, Laps: 5
+[2025-11-13 16:45:19.168] Sector 1: 3.6797s (avg speed: 6.52 m/s)
+  Best: 3.6683s, Avg: 3.6776s, Laps: 5
+[2025-11-13 16:45:26.487] Sector 2: 7.3201s (avg speed: 4.97 m/s)
+  Best: 7.3081s, Avg: 7.3182s, Laps: 5
+[2025-11-13 16:45:32.927] Sector 3: 6.4401s (avg speed: 5.24 m/s)
+  Best: 6.4396s, Avg: 6.4400s, Laps: 6
+[2025-11-13 16:45:40.420] Sector 4: 7.4913s (avg speed: 8.98 m/s)
+  Best: 7.4801s, Avg: 7.5001s, Laps: 6
+[2025-11-13 16:45:44.099] Sector 1: 3.6800s (avg speed: 6.55 m/s)
+  Best: 3.6683s, Avg: 3.6780s, Laps: 6
+[2025-11-13 16:45:51.420] Sector 2: 7.3202s (avg speed: 4.98 m/s)
+  Best: 7.3081s, Avg: 7.3185s, Laps: 6
+[2025-11-13 16:45:57.859] Sector 3: 6.4400s (avg speed: 5.25 m/s)
+  Best: 6.4396s, Avg: 6.4400s, Laps: 7
+[2025-11-13 16:46:05.388] Sector 4: 7.5282s (avg speed: 8.97 m/s)
+  Best: 7.4801s, Avg: 7.5041s, Laps: 7
+[2025-11-13 16:46:09.067] Sector 1: 3.6800s (avg speed: 6.51 m/s)
+  Best: 3.6683s, Avg: 3.6783s, Laps: 7
+[2025-11-13 16:46:16.387] Sector 2: 7.3200s (avg speed: 4.98 m/s)
+  Best: 7.3081s, Avg: 7.3187s, Laps: 7
+[2025-11-13 16:46:22.828] Sector 3: 6.4401s (avg speed: 5.24 m/s)
+  Best: 6.4396s, Avg: 6.4400s, Laps: 8
+[2025-11-13 16:46:30.330] Sector 4: 7.5010s (avg speed: 8.99 m/s)
+  Best: 7.4801s, Avg: 7.5037s, Laps: 8
+[2025-11-13 16:46:33.999] Sector 1: 3.6705s (avg speed: 6.56 m/s)
+  Best: 3.6683s, Avg: 3.6773s, Laps: 8
+[2025-11-13 16:46:41.327] Sector 2: 7.3284s (avg speed: 4.98 m/s)
+  Best: 7.3081s, Avg: 7.3199s, Laps: 8
+[2025-11-13 16:46:47.759] Sector 3: 6.4318s (avg speed: 5.24 m/s)
+  Best: 6.4318s, Avg: 6.4391s, Laps: 9
+[2025-11-13 16:46:55.248] Sector 4: 7.4883s (avg speed: 8.98 m/s)
+  Best: 7.4801s, Avg: 7.5020s, Laps: 9
+[2025-11-13 16:46:58.927] Sector 1: 3.6801s (avg speed: 6.54 m/s)
+  Best: 3.6683s, Avg: 3.6776s, Laps: 9
+[2025-11-13 16:47:06.247] Sector 2: 7.3197s (avg speed: 4.97 m/s)
+  Best: 7.3081s, Avg: 7.3199s, Laps: 9
+[2025-11-13 16:47:12.687] Sector 3: 6.4401s (avg speed: 5.25 m/s)
+  Best: 6.4318s, Avg: 6.4392s, Laps: 10
+[2025-11-13 16:47:20.180] Sector 4: 7.4918s (avg speed: 8.97 m/s)
+  Best: 7.4801s, Avg: 7.5010s, Laps: 10
+[2025-11-13 16:47:23.859] Sector 1: 3.6801s (avg speed: 6.55 m/s)
+  Best: 3.6683s, Avg: 3.6779s, Laps: 10
+[2025-11-13 16:47:31.179] Sector 2: 7.3197s (avg speed: 4.98 m/s)
+  Best: 7.3081s, Avg: 7.3199s, Laps: 10
+[2025-11-13 16:47:37.608] Sector 3: 6.4285s (avg speed: 5.24 m/s)
+  Best: 6.4285s, Avg: 6.4382s, Laps: 11
+[2025-11-13 16:47:45.100] Sector 4: 7.4917s (avg speed: 8.98 m/s)
+  Best: 7.4801s, Avg: 7.5002s, Laps: 11
+[2025-11-13 16:47:48.779] Sector 1: 3.6798s (avg speed: 6.55 m/s)
+  Best: 3.6683s, Avg: 3.6781s, Laps: 11
+[2025-11-13 16:47:56.099] Sector 2: 7.3200s (avg speed: 4.97 m/s)
+  Best: 7.3081s, Avg: 7.3199s, Laps: 11
+[2025-11-13 16:48:02.528] Sector 3: 6.4290s (avg speed: 5.24 m/s)
+  Best: 6.4285s, Avg: 6.4375s, Laps: 12
+[2025-11-13 16:48:10.019] Sector 4: 7.4912s (avg speed: 8.97 m/s)
+  Best: 7.4801s, Avg: 7.4994s, Laps: 12
+[2025-11-13 16:48:13.699] Sector 1: 3.6798s (avg speed: 6.54 m/s)
+  Best: 3.6683s, Avg: 3.6782s, Laps: 12
+[2025-11-13 16:48:21.020] Sector 2: 7.3209s (avg speed: 4.97 m/s)
+  Best: 7.3081s, Avg: 7.3200s, Laps: 12
+[2025-11-13 16:48:27.459] Sector 3: 6.4394s (avg speed: 5.25 m/s)
+  Best: 6.4285s, Avg: 6.4376s, Laps: 13
+[2025-11-13 16:48:34.948] Sector 4: 7.4884s (avg speed: 8.98 m/s)
+  Best: 7.4801s, Avg: 7.4986s, Laps: 13
+[2025-11-13 16:48:38.627] Sector 1: 3.6797s (avg speed: 6.55 m/s)
+  Best: 3.6683s, Avg: 3.6783s, Laps: 13
+[2025-11-13 16:48:45.949] Sector 2: 7.3207s (avg speed: 4.98 m/s)
+  Best: 7.3081s, Avg: 7.3200s, Laps: 13
+[2025-11-13 16:48:52.380] Sector 3: 6.4312s (avg speed: 5.24 m/s)
+  Best: 6.4285s, Avg: 6.4371s, Laps: 14
+[2025-11-13 16:48:59.881] Sector 4: 7.5001s (avg speed: 8.97 m/s)
+  Best: 7.4801s, Avg: 7.4987s, Laps: 14
+[2025-11-13 16:49:03.559] Sector 1: 3.6799s (avg speed: 6.57 m/s)
+  Best: 3.6683s, Avg: 3.6784s, Laps: 14
+[2025-11-13 16:49:10.887] Sector 2: 7.3282s (avg speed: 4.98 m/s)
+  Best: 7.3081s, Avg: 7.3206s, Laps: 14
+[2025-11-13 16:49:17.319] Sector 3: 6.4318s (avg speed: 5.24 m/s)
+  Best: 6.4285s, Avg: 6.4368s, Laps: 15
+[2025-11-13 16:49:24.828] Sector 4: 7.5085s (avg speed: 8.98 m/s)
+  Best: 7.4801s, Avg: 7.4993s, Laps: 15
+[2025-11-13 16:49:28.508] Sector 1: 3.6800s (avg speed: 6.54 m/s)
+  Best: 3.6683s, Avg: 3.6785s, Laps: 15
+[2025-11-13 16:49:35.828] Sector 2: 7.3207s (avg speed: 4.98 m/s)
+  Best: 7.3081s, Avg: 7.3206s, Laps: 15
+[2025-11-13 16:49:42.259] Sector 3: 6.4308s (avg speed: 5.24 m/s)
+  Best: 6.4285s, Avg: 6.4364s, Laps: 16
+[2025-11-13 16:49:49.779] Sector 4: 7.5199s (avg speed: 8.96 m/s)
+  Best: 7.4801s, Avg: 7.5006s, Laps: 16
+[2025-11-13 16:49:53.459] Sector 1: 3.6801s (avg speed: 6.58 m/s)
+  Best: 3.6683s, Avg: 3.6786s, Laps: 16
+[2025-11-13 16:50:00.779] Sector 2: 7.3201s (avg speed: 4.98 m/s)
+  Best: 7.3081s, Avg: 7.3206s, Laps: 16
+[2025-11-13 16:50:07.207] Sector 3: 6.4283s (avg speed: 5.24 m/s)
+  Best: 6.4283s, Avg: 6.4359s, Laps: 17
+[2025-11-13 16:50:14.708] Sector 4: 7.5001s (avg speed: 8.98 m/s)
+  Best: 7.4801s, Avg: 7.5006s, Laps: 17
+[2025-11-13 16:50:18.387] Sector 1: 3.6799s (avg speed: 6.51 m/s)
+  Best: 3.6683s, Avg: 3.6787s, Laps: 17
+[2025-11-13 16:50:25.707] Sector 2: 7.3201s (avg speed: 4.98 m/s)
+  Best: 7.3081s, Avg: 7.3206s, Laps: 17
+[2025-11-13 16:50:32.140] Sector 3: 6.4317s (avg speed: 5.24 m/s)
+  Best: 6.4283s, Avg: 6.4357s, Laps: 18
+[2025-11-13 16:50:39.640] Sector 4: 7.5002s (avg speed: 8.99 m/s)
+  Best: 7.4801s, Avg: 7.5006s, Laps: 18
+[2025-11-13 16:50:43.319] Sector 1: 3.6796s (avg speed: 6.51 m/s)
+  Best: 3.6683s, Avg: 3.6788s, Laps: 18
+[2025-11-13 16:50:56.808] Sector 2: 13.4887s (avg speed: 5.57 m/s)
+  Best: 7.3081s, Avg: 7.6632s, Laps: 18
+[2025-11-13 16:51:02.448] Sector 3: 5.6397s (avg speed: 6.11 m/s)
+  Best: 5.6397s, Avg: 6.3938s, Laps: 19
+[2025-11-13 16:51:09.279] Sector 4: 6.8318s (avg speed: 9.45 m/s)
+  Best: 6.8318s, Avg: 7.4654s, Laps: 19
+[2025-11-13 16:51:12.859] Sector 1: 3.5798s (avg speed: 6.95 m/s)
+  Best: 3.5798s, Avg: 3.6735s, Laps: 19
+[2025-11-13 16:51:19.659] Sector 2: 6.8000s (avg speed: 5.58 m/s)
+  Best: 6.8000s, Avg: 7.6178s, Laps: 19
+[2025-11-13 16:51:25.287] Sector 3: 5.6284s (avg speed: 6.11 m/s)
+  Best: 5.6284s, Avg: 6.3555s, Laps: 20
+[2025-11-13 16:51:32.120] Sector 4: 6.8317s (avg speed: 9.45 m/s)
+  Best: 6.8317s, Avg: 7.4337s, Laps: 20
+[2025-11-13 16:51:35.699] Sector 1: 3.5804s (avg speed: 6.92 m/s)
+  Best: 3.5798s, Avg: 3.6689s, Laps: 20
+[2025-11-13 16:51:42.499] Sector 2: 6.7997s (avg speed: 5.57 m/s)
+  Best: 6.7997s, Avg: 7.5769s, Laps: 20
+[2025-11-13 16:51:48.139] Sector 3: 5.6399s (avg speed: 6.11 m/s)
+  Best: 5.6284s, Avg: 6.3215s, Laps: 21
+[2025-11-13 16:51:54.969] Sector 4: 6.8286s (avg speed: 9.45 m/s)
+  Best: 6.8286s, Avg: 7.4049s, Laps: 21
+[2025-11-13 16:51:58.548] Sector 1: 3.5798s (avg speed: 6.91 m/s)
+  Best: 3.5798s, Avg: 3.6646s, Laps: 21
+[2025-11-13 16:52:05.348] Sector 2: 6.8000s (avg speed: 5.58 m/s)
+  Best: 6.7997s, Avg: 7.5399s, Laps: 21
+[2025-11-13 16:52:10.979] Sector 3: 5.6317s (avg speed: 6.10 m/s)
+  Best: 5.6284s, Avg: 6.2901s, Laps: 22
+[2025-11-13 16:52:17.808] Sector 4: 6.8282s (avg speed: 9.45 m/s)
+  Best: 6.8282s, Avg: 7.3787s, Laps: 22
+[2025-11-13 16:52:21.387] Sector 1: 3.5800s (avg speed: 6.93 m/s)
+  Best: 3.5798s, Avg: 3.6608s, Laps: 22
+[2025-11-13 16:52:28.188] Sector 2: 6.8008s (avg speed: 5.59 m/s)
+  Best: 6.7997s, Avg: 7.5063s, Laps: 22
+[2025-11-13 16:52:33.820] Sector 3: 5.6314s (avg speed: 6.11 m/s)
+  Best: 5.6284s, Avg: 6.2615s, Laps: 23
+[2025-11-13 16:52:40.648] Sector 4: 6.8279s (avg speed: 9.45 m/s)
+  Best: 6.8279s, Avg: 7.3547s, Laps: 23
+[2025-11-13 16:52:44.228] Sector 1: 3.5800s (avg speed: 6.91 m/s)
+  Best: 3.5798s, Avg: 3.6573s, Laps: 23
+[2025-11-13 16:52:51.027] Sector 2: 6.8000s (avg speed: 5.59 m/s)
+  Best: 6.7997s, Avg: 7.4756s, Laps: 23
+[2025-11-13 16:52:56.660] Sector 3: 5.6317s (avg speed: 6.10 m/s)
+  Best: 5.6284s, Avg: 6.2352s, Laps: 24
+
+================================================================================
+Session Summary
+================================================================================
+
+Sector 1:
+  Total laps: 23
+  Best time: 3.5798s
+  Worst time: 3.6802s
+  Average time: 3.6573s
+  Std deviation: 0.0408s
+
+Sector 2:
+  Total laps: 23
+  Best time: 6.7997s
+  Worst time: 13.4887s
+  Average time: 7.4756s
+  Std deviation: 1.2996s
+
+Sector 3:
+  Total laps: 24
+  Best time: 5.6284s
+  Worst time: 6.4402s
+  Average time: 6.2352s
+  Std deviation: 0.3473s
+
+Sector 4:
+  Total laps: 23
+  Best time: 6.8279s
+  Worst time: 7.5282s
+  Average time: 7.3547s
+  Std deviation: 0.2770s

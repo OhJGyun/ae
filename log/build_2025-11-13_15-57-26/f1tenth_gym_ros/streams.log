@@ -1,0 +1,31 @@
+[1.521s] Invoking command in '/home/ojg/ae/build/f1tenth_gym_ros': PYTHONPATH=/home/ojg/ae/build/f1tenth_gym_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ojg/ae/install/f1tenth_gym_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ojg/ae/build/f1tenth_gym_ros/build --no-deps symlink_data
+[1.736s] running develop
+[1.886s] running egg_info
+[1.886s] creating f1tenth_gym_ros.egg-info
+[1.886s] writing f1tenth_gym_ros.egg-info/PKG-INFO
+[1.886s] writing dependency_links to f1tenth_gym_ros.egg-info/dependency_links.txt
+[1.886s] writing entry points to f1tenth_gym_ros.egg-info/entry_points.txt
+[1.886s] writing requirements to f1tenth_gym_ros.egg-info/requires.txt
+[1.886s] writing top-level names to f1tenth_gym_ros.egg-info/top_level.txt
+[1.886s] writing manifest file 'f1tenth_gym_ros.egg-info/SOURCES.txt'
+[1.888s] reading manifest file 'f1tenth_gym_ros.egg-info/SOURCES.txt'
+[1.888s] writing manifest file 'f1tenth_gym_ros.egg-info/SOURCES.txt'
+[1.890s] running build_ext
+[1.890s] Creating /home/ojg/ae/install/f1tenth_gym_ros/lib/python3.10/site-packages/f1tenth-gym-ros.egg-link (link to .)
+[1.890s] Installing gym_bridge script to /home/ojg/ae/install/f1tenth_gym_ros/lib/f1tenth_gym_ros
+[1.891s] 
+[1.891s] Installed /home/ojg/ae/build/f1tenth_gym_ros
+[1.891s] running symlink_data
+[1.891s] creating /home/ojg/ae/install/f1tenth_gym_ros/share/ament_index
+[1.891s] creating /home/ojg/ae/install/f1tenth_gym_ros/share/ament_index/resource_index
+[1.891s] creating /home/ojg/ae/install/f1tenth_gym_ros/share/ament_index/resource_index/packages
+[1.891s] symbolically linking /home/ojg/ae/build/f1tenth_gym_ros/resource/f1tenth_gym_ros -> /home/ojg/ae/install/f1tenth_gym_ros/share/ament_index/resource_index/packages
+[1.891s] symbolically linking /home/ojg/ae/build/f1tenth_gym_ros/package.xml -> /home/ojg/ae/install/f1tenth_gym_ros/share/f1tenth_gym_ros
+[1.892s] creating /home/ojg/ae/install/f1tenth_gym_ros/share/f1tenth_gym_ros/launch
+[1.892s] symbolically linking /home/ojg/ae/build/f1tenth_gym_ros/launch/gym_bridge_launch.py -> /home/ojg/ae/install/f1tenth_gym_ros/share/f1tenth_gym_ros/launch
+[1.892s] symbolically linking /home/ojg/ae/build/f1tenth_gym_ros/launch/opp_racecar.xacro -> /home/ojg/ae/install/f1tenth_gym_ros/share/f1tenth_gym_ros/launch
+[1.892s] symbolically linking /home/ojg/ae/build/f1tenth_gym_ros/launch/ego_racecar.xacro -> /home/ojg/ae/install/f1tenth_gym_ros/share/f1tenth_gym_ros/launch
+[1.892s] symbolically linking /home/ojg/ae/build/f1tenth_gym_ros/launch/gym_bridge.rviz -> /home/ojg/ae/install/f1tenth_gym_ros/share/f1tenth_gym_ros/launch
+[1.892s] creating /home/ojg/ae/install/f1tenth_gym_ros/share/f1tenth_gym_ros/config
+[1.892s] symbolically linking /home/ojg/ae/build/f1tenth_gym_ros/config/sim.yaml -> /home/ojg/ae/install/f1tenth_gym_ros/share/f1tenth_gym_ros/config
+[1.914s] Invoked command in '/home/ojg/ae/build/f1tenth_gym_ros' returned '0': PYTHONPATH=/home/ojg/ae/build/f1tenth_gym_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ojg/ae/install/f1tenth_gym_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ojg/ae/build/f1tenth_gym_ros/build --no-deps symlink_data

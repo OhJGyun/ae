@@ -1,0 +1,28 @@
+[1.745s] Invoking command in '/home/ojg/ae/build/lane_selector': PYTHONPATH=/home/ojg/ae/build/lane_selector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ojg/ae/install/lane_selector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ojg/ae/build/lane_selector/build --no-deps symlink_data
+[2.087s] running develop
+[2.326s] running egg_info
+[2.326s] creating lane_selector.egg-info
+[2.326s] writing lane_selector.egg-info/PKG-INFO
+[2.327s] writing dependency_links to lane_selector.egg-info/dependency_links.txt
+[2.327s] writing entry points to lane_selector.egg-info/entry_points.txt
+[2.327s] writing requirements to lane_selector.egg-info/requires.txt
+[2.327s] writing top-level names to lane_selector.egg-info/top_level.txt
+[2.327s] writing manifest file 'lane_selector.egg-info/SOURCES.txt'
+[2.329s] reading manifest file 'lane_selector.egg-info/SOURCES.txt'
+[2.330s] writing manifest file 'lane_selector.egg-info/SOURCES.txt'
+[2.331s] running build_ext
+[2.332s] Creating /home/ojg/ae/install/lane_selector/lib/python3.10/site-packages/lane-selector.egg-link (link to .)
+[2.332s] Installing lane_selector_node script to /home/ojg/ae/install/lane_selector/lib/lane_selector
+[2.333s] 
+[2.333s] Installed /home/ojg/ae/build/lane_selector
+[2.333s] running symlink_data
+[2.333s] creating /home/ojg/ae/install/lane_selector/share/ament_index
+[2.333s] creating /home/ojg/ae/install/lane_selector/share/ament_index/resource_index
+[2.333s] creating /home/ojg/ae/install/lane_selector/share/ament_index/resource_index/packages
+[2.333s] symbolically linking /home/ojg/ae/build/lane_selector/resource/lane_selector -> /home/ojg/ae/install/lane_selector/share/ament_index/resource_index/packages
+[2.334s] symbolically linking /home/ojg/ae/build/lane_selector/package.xml -> /home/ojg/ae/install/lane_selector/share/lane_selector
+[2.334s] creating /home/ojg/ae/install/lane_selector/share/lane_selector/config
+[2.334s] symbolically linking /home/ojg/ae/build/lane_selector/config/lane_selector.yaml -> /home/ojg/ae/install/lane_selector/share/lane_selector/config
+[2.334s] creating /home/ojg/ae/install/lane_selector/share/lane_selector/launch
+[2.334s] symbolically linking /home/ojg/ae/build/lane_selector/launch/lane_selector_launch.py -> /home/ojg/ae/install/lane_selector/share/lane_selector/launch
+[2.381s] Invoked command in '/home/ojg/ae/build/lane_selector' returned '0': PYTHONPATH=/home/ojg/ae/build/lane_selector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ojg/ae/install/lane_selector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ojg/ae/build/lane_selector/build --no-deps symlink_data

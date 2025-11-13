@@ -1,0 +1,27 @@
+[ 50%] Built target stanley_node
+[100%] Built target pure_pursuit_sim_node
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /home/ojg/ae/install/app_control/lib/app_control/pure_pursuit_sim_node
+-- Up-to-date symlink: /home/ojg/ae/install/app_control/lib/app_control/stanley_node
+-- Up-to-date symlink: /home/ojg/ae/install/app_control/share/app_control//launch/pure_pursuit_launch.py
+-- Up-to-date symlink: /home/ojg/ae/install/app_control/share/app_control//launch/stanley_launch.py
+-- Up-to-date symlink: /home/ojg/ae/install/app_control/share/app_control//config/pure_pursuit_params.yaml
+-- Up-to-date symlink: /home/ojg/ae/install/app_control/share/app_control//config/stanley_params.yaml
+-- Up-to-date symlink: /home/ojg/ae/install/app_control/share/app_control//rviz/autonomous_driving.rviz
+-- Up-to-date symlink: /home/ojg/ae/install/app_control/share/app_control//rviz/pure_pursuit.rviz
+-- Up-to-date symlink: /home/ojg/ae/install/app_control/share/ament_index/resource_index/package_run_dependencies/app_control
+-- Up-to-date symlink: /home/ojg/ae/install/app_control/share/ament_index/resource_index/parent_prefix_path/app_control
+-- Up-to-date symlink: /home/ojg/ae/install/app_control/share/app_control/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/ojg/ae/install/app_control/share/app_control/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/ojg/ae/install/app_control/share/app_control/environment/path.sh
+-- Up-to-date symlink: /home/ojg/ae/install/app_control/share/app_control/environment/path.dsv
+-- Up-to-date symlink: /home/ojg/ae/install/app_control/share/app_control/local_setup.bash
+-- Up-to-date symlink: /home/ojg/ae/install/app_control/share/app_control/local_setup.sh
+-- Up-to-date symlink: /home/ojg/ae/install/app_control/share/app_control/local_setup.zsh
+-- Up-to-date symlink: /home/ojg/ae/install/app_control/share/app_control/local_setup.dsv
+-- Symlinking: /home/ojg/ae/install/app_control/share/app_control/package.dsv
+-- Up-to-date symlink: /home/ojg/ae/install/app_control/share/ament_index/resource_index/packages/app_control
+-- Up-to-date symlink: /home/ojg/ae/install/app_control/share/app_control/cmake/app_controlConfig.cmake
+-- Up-to-date symlink: /home/ojg/ae/install/app_control/share/app_control/cmake/app_controlConfig-version.cmake
+-- Up-to-date symlink: /home/ojg/ae/install/app_control/share/app_control/package.xml

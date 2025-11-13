@@ -1,0 +1,28 @@
+[1.732s] Invoking command in '/home/ojg/ae/build/visualization': PYTHONPATH=/home/ojg/ae/build/visualization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ojg/ae/install/visualization/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ojg/ae/build/visualization/build --no-deps symlink_data
+[1.991s] running develop
+[2.208s] running egg_info
+[2.208s] creating visualization.egg-info
+[2.208s] writing visualization.egg-info/PKG-INFO
+[2.208s] writing dependency_links to visualization.egg-info/dependency_links.txt
+[2.209s] writing entry points to visualization.egg-info/entry_points.txt
+[2.209s] writing requirements to visualization.egg-info/requires.txt
+[2.209s] writing top-level names to visualization.egg-info/top_level.txt
+[2.209s] writing manifest file 'visualization.egg-info/SOURCES.txt'
+[2.212s] reading manifest file 'visualization.egg-info/SOURCES.txt'
+[2.212s] writing manifest file 'visualization.egg-info/SOURCES.txt'
+[2.214s] running build_ext
+[2.215s] Creating /home/ojg/ae/install/visualization/lib/python3.10/site-packages/visualization.egg-link (link to .)
+[2.216s] Installing csv_publisher script to /home/ojg/ae/install/visualization/lib/visualization
+[2.216s] 
+[2.216s] Installed /home/ojg/ae/build/visualization
+[2.216s] running symlink_data
+[2.216s] creating /home/ojg/ae/install/visualization/share/ament_index
+[2.216s] creating /home/ojg/ae/install/visualization/share/ament_index/resource_index
+[2.216s] creating /home/ojg/ae/install/visualization/share/ament_index/resource_index/packages
+[2.216s] symbolically linking /home/ojg/ae/build/visualization/resource/visualization -> /home/ojg/ae/install/visualization/share/ament_index/resource_index/packages
+[2.217s] symbolically linking /home/ojg/ae/build/visualization/package.xml -> /home/ojg/ae/install/visualization/share/visualization
+[2.217s] creating /home/ojg/ae/install/visualization/share/visualization/config
+[2.217s] symbolically linking /home/ojg/ae/build/visualization/config/visualization.yaml -> /home/ojg/ae/install/visualization/share/visualization/config
+[2.217s] creating /home/ojg/ae/install/visualization/share/visualization/launch
+[2.217s] symbolically linking /home/ojg/ae/build/visualization/launch/csv_visualization.launch.py -> /home/ojg/ae/install/visualization/share/visualization/launch
+[2.261s] Invoked command in '/home/ojg/ae/build/visualization' returned '0': PYTHONPATH=/home/ojg/ae/build/visualization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ojg/ae/install/visualization/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ojg/ae/build/visualization/build --no-deps symlink_data

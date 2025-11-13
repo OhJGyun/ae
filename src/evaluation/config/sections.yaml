@@ -26,7 +26,7 @@ lap_timer:
 
     # Logging options
     log_to_file: true
-    log_directory: "/home/joon/joon_sim_ws/lap_logs"
+    log_directory: "/home/ojg/ae/data/lap_log"
 
     # Display options
     display_lap_times: true

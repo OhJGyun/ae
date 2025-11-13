@@ -23,10 +23,10 @@ class EvaluationNode(Node):
         # Declare and get parameters
         self.declare_parameter('odom_topic', '/ego_racecar/odom')
         self.declare_parameter('log_to_file', True)
-        self.declare_parameter('log_directory', '/home/joon/joon_sim_ws/lap_logs')
+        self.declare_parameter('log_directory', '/home/ojg/ae/data/lap_log')
         self.declare_parameter('display_lap_times', True)
         self.declare_parameter('controller_name', 'unknown')
-        self.declare_parameter('csv_output_directory', '/home/joon/joon_sim_ws/evaluation_results')
+        self.declare_parameter('csv_output_directory', '/home/ojg/ae/data/evaluation_results')
         self.declare_parameter('is_obstacle_map', False)  # ✅ 장애물 맵 여부 파라미터
 
         odom_topic = self.get_parameter('odom_topic').value

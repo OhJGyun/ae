@@ -1,1 +1,0 @@
-/home/ojg/ae/src/map_control/launch/map_controller.launch.py
