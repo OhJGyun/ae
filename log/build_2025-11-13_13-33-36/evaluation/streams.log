@@ -1,0 +1,18 @@
+[1.599s] Invoking command in '/home/ojg/ae/build/evaluation': PYTHONPATH=/home/ojg/ae/build/evaluation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ojg/ae/install/evaluation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ojg/ae/build/evaluation/build --no-deps symlink_data
+[1.772s] running develop
+[1.892s] running egg_info
+[1.892s] writing evaluation.egg-info/PKG-INFO
+[1.892s] writing dependency_links to evaluation.egg-info/dependency_links.txt
+[1.892s] writing entry points to evaluation.egg-info/entry_points.txt
+[1.892s] writing requirements to evaluation.egg-info/requires.txt
+[1.892s] writing top-level names to evaluation.egg-info/top_level.txt
+[1.894s] reading manifest file 'evaluation.egg-info/SOURCES.txt'
+[1.894s] writing manifest file 'evaluation.egg-info/SOURCES.txt'
+[1.895s] running build_ext
+[1.895s] Creating /home/ojg/ae/install/evaluation/lib/python3.10/site-packages/evaluation.egg-link (link to .)
+[1.896s] Installing compare_controllers script to /home/ojg/ae/install/evaluation/lib/evaluation
+[1.896s] Installing evaluation_node script to /home/ojg/ae/install/evaluation/lib/evaluation
+[1.896s] 
+[1.896s] Installed /home/ojg/ae/build/evaluation
+[1.896s] running symlink_data
+[1.916s] Invoked command in '/home/ojg/ae/build/evaluation' returned '0': PYTHONPATH=/home/ojg/ae/build/evaluation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ojg/ae/install/evaluation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ojg/ae/build/evaluation/build --no-deps symlink_data

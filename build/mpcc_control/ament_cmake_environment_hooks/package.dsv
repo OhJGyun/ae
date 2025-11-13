@@ -1,0 +1,4 @@
+source;share/mpcc_control/local_setup.bash
+source;share/mpcc_control/local_setup.dsv
+source;share/mpcc_control/local_setup.sh
+source;share/mpcc_control/local_setup.zsh

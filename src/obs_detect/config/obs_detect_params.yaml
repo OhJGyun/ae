@@ -1,0 +1,42 @@
+/**:
+  ros__parameters:
+    # --- Scan Topic ---
+    scan_topic: "/scan"  # f1tenth_gym_ros publishes to /scan (not /ego_racecar/scan)
+
+    # --- Frames ---
+    marker_frame_id: "map"
+    tf_timeout: 0.3
+
+    # --- ROI (Region of Interest) Parameters ---
+    roi_min_dist: 0.5
+    roi_max_dist: 5.00
+
+    # FOV (Field of View) filtering (degrees)
+    fov_deg: 120.0
+    fov_center_deg: 0.0
+
+    # --- Clustering Parameters ---
+    # Cluster size limits (number of points)
+    min_samples: 4          # Minimum number of points to form a cluster
+    max_samples: 100         # Maximum number of points (larger clusters are walls/boundaries)
+
+    # Scanline clustering parameters
+    cluster_eps0: 0.2      # Minimum link threshold (meters)
+    cluster_k: 0.06         # Distance-proportional coefficient
+
+    # --- Obstacle Size Filtering ---
+    max_obstacle_size: 0.5
+    min_obstacle_size: 0.0
+
+    # --- Visualization ---
+    center_scale: 0.12
+
+    # --- Boundary Files ---
+    # Note: Adjust subdirectory (0.5_0.5, 0.6_0.6, 0.7_0.7) based on desired simplification level
+    outer_bound_csv: "/home/ojg/ae/track/bound/0.4_0.4/outer_bound.csv"
+    inner_bound_csv: "/home/ojg/ae/track/bound/0.4_0.4/inner_bound.csv"
+
+    # --- Performance Options ---
+    use_vectorized_tf: true
+    enable_size_filter: false
+    sample_stride: 2        # Point sampling (1=all, 2=every 2nd, etc.)

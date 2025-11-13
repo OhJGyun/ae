@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing visualization.egg-info/PKG-INFO
+writing dependency_links to visualization.egg-info/dependency_links.txt
+writing entry points to visualization.egg-info/entry_points.txt
+writing requirements to visualization.egg-info/requires.txt
+writing top-level names to visualization.egg-info/top_level.txt
+reading manifest file 'visualization.egg-info/SOURCES.txt'
+writing manifest file 'visualization.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ojg/ae/install/visualization/lib/python3.10/site-packages/visualization.egg-link (link to .)
+Installing csv_publisher script to /home/ojg/ae/install/visualization/lib/visualization
+
+Installed /home/ojg/ae/build/visualization
+running symlink_data

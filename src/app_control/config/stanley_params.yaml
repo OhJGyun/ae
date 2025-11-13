@@ -1,0 +1,25 @@
+stanley_node:
+  ros__parameters:
+    # Path
+    csv_file_path: "/home/joon/f1/f1tenth_ws/joon_sim_ws/map_global_path_bound/global_paths/lane_optimal.csv"
+
+    # Vehicle parameters
+    wheelbase: 0.3302
+    max_steer: 0.7  # 30도 (라디안)
+
+    # Stanley Controller gains
+    k_e: 0.8       # Cross-track error 게인 (증가 = 더 공격적, 감소 = 더 부드러움)
+    k_soft: 0.6    # 속도 보정 상수 (증가 = 저속에서 더 안정적)
+
+    # Speed control
+    max_speed: 5.0  # 최대 속도 (m/s)
+    min_speed: 1.5  # 최소 속도 (m/s)
+    turn_slowdown_angle: 0.25   # 여기부터 조향에 따른 감속 시작 (rad)
+    turn_slowdown_gain: 2.2     # 조향량 초과분에 대한 감속 강도
+    turn_speed_min_scale: 0.45  # 감속 시 목표 속도에 적용할 최소 배율
+
+    # PID gains for longitudinal speed control
+    speed_kp: 0.6
+    speed_ki: 0.02
+    speed_kd: 0.05
+    speed_change_rate_limit: 3.0  # 속도 변화율 제한 (m/s^2)

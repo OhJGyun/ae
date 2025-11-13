@@ -1,0 +1,20 @@
+[1.807s] Invoking command in '/home/ojg/ae/build/map_control': PYTHONPATH=/home/ojg/ae/build/map_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ojg/ae/install/map_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ojg/ae/build/map_control/build --no-deps symlink_data
+[2.048s] running develop
+[2.197s] running egg_info
+[2.197s] writing map_control.egg-info/PKG-INFO
+[2.198s] writing dependency_links to map_control.egg-info/dependency_links.txt
+[2.198s] writing entry points to map_control.egg-info/entry_points.txt
+[2.198s] writing requirements to map_control.egg-info/requires.txt
+[2.198s] writing top-level names to map_control.egg-info/top_level.txt
+[2.199s] reading manifest file 'map_control.egg-info/SOURCES.txt'
+[2.200s] writing manifest file 'map_control.egg-info/SOURCES.txt'
+[2.201s] running build_ext
+[2.201s] Creating /home/ojg/ae/install/map_control/lib/python3.10/site-packages/map-control.egg-link (link to .)
+[2.202s] Installing drive_relay script to /home/ojg/ae/install/map_control/lib/map_control
+[2.202s] Installing lap_timer_node script to /home/ojg/ae/install/map_control/lib/map_control
+[2.202s] Installing map_controller script to /home/ojg/ae/install/map_control/lib/map_control
+[2.202s] Installing map_controller_ojg_test script to /home/ojg/ae/install/map_control/lib/map_control
+[2.202s] 
+[2.202s] Installed /home/ojg/ae/build/map_control
+[2.202s] running symlink_data
+[2.231s] Invoked command in '/home/ojg/ae/build/map_control' returned '0': PYTHONPATH=/home/ojg/ae/build/map_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ojg/ae/install/map_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ojg/ae/build/map_control/build --no-deps symlink_data

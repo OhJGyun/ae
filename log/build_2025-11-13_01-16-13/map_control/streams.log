@@ -1,0 +1,37 @@
+[1.780s] Invoking command in '/home/ojg/ae/build/map_control': PYTHONPATH=/home/ojg/ae/build/map_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ojg/ae/install/map_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ojg/ae/build/map_control/build --no-deps symlink_data
+[2.151s] running develop
+[2.400s] running egg_info
+[2.400s] creating map_control.egg-info
+[2.400s] writing map_control.egg-info/PKG-INFO
+[2.401s] writing dependency_links to map_control.egg-info/dependency_links.txt
+[2.401s] writing entry points to map_control.egg-info/entry_points.txt
+[2.401s] writing requirements to map_control.egg-info/requires.txt
+[2.401s] writing top-level names to map_control.egg-info/top_level.txt
+[2.402s] writing manifest file 'map_control.egg-info/SOURCES.txt'
+[2.404s] reading manifest file 'map_control.egg-info/SOURCES.txt'
+[2.405s] writing manifest file 'map_control.egg-info/SOURCES.txt'
+[2.407s] running build_ext
+[2.407s] Creating /home/ojg/ae/install/map_control/lib/python3.10/site-packages/map-control.egg-link (link to .)
+[2.408s] Installing drive_relay script to /home/ojg/ae/install/map_control/lib/map_control
+[2.408s] Installing lap_timer_node script to /home/ojg/ae/install/map_control/lib/map_control
+[2.409s] Installing map_controller script to /home/ojg/ae/install/map_control/lib/map_control
+[2.409s] Installing map_controller_ojg_test script to /home/ojg/ae/install/map_control/lib/map_control
+[2.409s] 
+[2.409s] Installed /home/ojg/ae/build/map_control
+[2.409s] running symlink_data
+[2.409s] creating /home/ojg/ae/install/map_control/share/ament_index
+[2.409s] creating /home/ojg/ae/install/map_control/share/ament_index/resource_index
+[2.409s] creating /home/ojg/ae/install/map_control/share/ament_index/resource_index/packages
+[2.409s] symbolically linking /home/ojg/ae/build/map_control/resource/map_control -> /home/ojg/ae/install/map_control/share/ament_index/resource_index/packages
+[2.410s] symbolically linking /home/ojg/ae/build/map_control/package.xml -> /home/ojg/ae/install/map_control/share/map_control
+[2.410s] creating /home/ojg/ae/install/map_control/share/map_control/launch
+[2.410s] symbolically linking /home/ojg/ae/build/map_control/launch/map_controller.launch.py -> /home/ojg/ae/install/map_control/share/map_control/launch
+[2.410s] symbolically linking /home/ojg/ae/build/map_control/launch/map_controller_ojg_test.launch.py -> /home/ojg/ae/install/map_control/share/map_control/launch
+[2.410s] symbolically linking /home/ojg/ae/build/map_control/launch/map_with_lane_selector.launch.py -> /home/ojg/ae/install/map_control/share/map_control/launch
+[2.410s] symbolically linking /home/ojg/ae/build/map_control/launch/map_with_lane_selector_ojg_test.launch.py -> /home/ojg/ae/install/map_control/share/map_control/launch
+[2.410s] symbolically linking /home/ojg/ae/build/map_control/launch/lap_timer.launch.py -> /home/ojg/ae/install/map_control/share/map_control/launch
+[2.410s] creating /home/ojg/ae/install/map_control/share/map_control/config
+[2.410s] symbolically linking /home/ojg/ae/build/map_control/config/map_control_params.yaml -> /home/ojg/ae/install/map_control/share/map_control/config
+[2.410s] creating /home/ojg/ae/install/map_control/share/map_control/config/steering_lut
+[2.410s] symbolically linking /home/ojg/ae/build/map_control/config/steering_lut/NUC2_pacejka_lookup_table.csv -> /home/ojg/ae/install/map_control/share/map_control/config/steering_lut
+[2.493s] Invoked command in '/home/ojg/ae/build/map_control' returned '0': PYTHONPATH=/home/ojg/ae/build/map_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ojg/ae/install/map_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ojg/ae/build/map_control/build --no-deps symlink_data

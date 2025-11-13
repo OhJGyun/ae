@@ -1,0 +1,32 @@
+lap_timer:
+  ros__parameters:
+    # Sector definitions
+    # Each sector has a start line and end line defined by two points
+    # Format: [x1, y1, x2, y2] representing a line segment
+
+    sections:
+      - name: "Sector 1"
+        start_line: [20.0, 5.0, 23.6, 5.0]
+        end_line: [1.0, 21.8, 1.0, 25.5]
+
+      - name: "Sector 2"
+        start_line: [1.0, 21.8, 1.0, 25.5]
+        end_line: [11.6, 21.2, 11.6, 17.6]
+
+      - name: "Sector 3"
+        start_line: [11.6, 21.2, 11.6, 17.6]
+        end_line: [-5.46, 7.8, -1.76, 7.8]
+
+      - name: "Sector 4"
+        start_line: [-5.46, 7.8, -1.76, 7.8]
+        end_line: [20.0, 5.0, 23.6, 5.0]
+
+    # Topic to subscribe for odometry
+    odom_topic: "/ego_racecar/odom"
+
+    # Logging options
+    log_to_file: true
+    log_directory: "/home/joon/joon_sim_ws/lap_logs"
+
+    # Display options
+    display_lap_times: true

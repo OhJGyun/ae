@@ -1,0 +1,4 @@
+[console_scripts]
+boundary_viz_node = obs_detect.boundary_viz_node:main
+ring_obs_node = obs_detect.ring_obs_node:main
+

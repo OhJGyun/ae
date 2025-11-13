@@ -1,0 +1,34 @@
+[0.047s] Invoking command in '/home/ojg/ae/build/app_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ojg/ae/install/visualization:/home/ojg/ae/install/obs_detect:/home/ojg/ae/install/map_control:/home/ojg/ae/install/lane_selector:/home/ojg/ae/install/f1tenth_gym_ros:/home/ojg/ae/install/evaluation:/opt/ros/humble /usr/bin/cmake --build /home/ojg/ae/build/app_control -- -j18 -l18
+[1.447s] [35m[1mConsolidate compiler generated dependencies of target pure_pursuit_sim_node[0m
+[1.448s] [ 50%] Built target stanley_node
+[1.448s] [ 75%] [32mBuilding CXX object CMakeFiles/pure_pursuit_sim_node.dir/src/pure_pursuit_sim_node.cpp.o[0m
+[14.247s] [100%] [32m[1mLinking CXX executable pure_pursuit_sim_node[0m
+[14.424s] [100%] Built target pure_pursuit_sim_node
+[14.437s] Invoked command in '/home/ojg/ae/build/app_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ojg/ae/install/visualization:/home/ojg/ae/install/obs_detect:/home/ojg/ae/install/map_control:/home/ojg/ae/install/lane_selector:/home/ojg/ae/install/f1tenth_gym_ros:/home/ojg/ae/install/evaluation:/opt/ros/humble /usr/bin/cmake --build /home/ojg/ae/build/app_control -- -j18 -l18
+[14.438s] Invoking command in '/home/ojg/ae/build/app_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ojg/ae/install/visualization:/home/ojg/ae/install/obs_detect:/home/ojg/ae/install/map_control:/home/ojg/ae/install/lane_selector:/home/ojg/ae/install/f1tenth_gym_ros:/home/ojg/ae/install/evaluation:/opt/ros/humble /usr/bin/cmake --install /home/ojg/ae/build/app_control
+[14.444s] -- Install configuration: "Release"
+[14.444s] -- Execute custom install script
+[14.444s] -- Up-to-date symlink: /home/ojg/ae/install/app_control/lib/app_control/pure_pursuit_sim_node
+[14.444s] -- Up-to-date symlink: /home/ojg/ae/install/app_control/lib/app_control/stanley_node
+[14.445s] -- Up-to-date symlink: /home/ojg/ae/install/app_control/share/app_control//launch/pure_pursuit_launch.py
+[14.445s] -- Up-to-date symlink: /home/ojg/ae/install/app_control/share/app_control//launch/stanley_launch.py
+[14.445s] -- Up-to-date symlink: /home/ojg/ae/install/app_control/share/app_control//config/pure_pursuit_params.yaml
+[14.445s] -- Up-to-date symlink: /home/ojg/ae/install/app_control/share/app_control//config/stanley_params.yaml
+[14.445s] -- Up-to-date symlink: /home/ojg/ae/install/app_control/share/app_control//rviz/autonomous_driving.rviz
+[14.445s] -- Up-to-date symlink: /home/ojg/ae/install/app_control/share/app_control//rviz/pure_pursuit.rviz
+[14.445s] -- Up-to-date symlink: /home/ojg/ae/install/app_control/share/ament_index/resource_index/package_run_dependencies/app_control
+[14.445s] -- Up-to-date symlink: /home/ojg/ae/install/app_control/share/ament_index/resource_index/parent_prefix_path/app_control
+[14.445s] -- Up-to-date symlink: /home/ojg/ae/install/app_control/share/app_control/environment/ament_prefix_path.sh
+[14.445s] -- Up-to-date symlink: /home/ojg/ae/install/app_control/share/app_control/environment/ament_prefix_path.dsv
+[14.446s] -- Up-to-date symlink: /home/ojg/ae/install/app_control/share/app_control/environment/path.sh
+[14.446s] -- Up-to-date symlink: /home/ojg/ae/install/app_control/share/app_control/environment/path.dsv
+[14.446s] -- Up-to-date symlink: /home/ojg/ae/install/app_control/share/app_control/local_setup.bash
+[14.446s] -- Up-to-date symlink: /home/ojg/ae/install/app_control/share/app_control/local_setup.sh
+[14.446s] -- Up-to-date symlink: /home/ojg/ae/install/app_control/share/app_control/local_setup.zsh
+[14.446s] -- Up-to-date symlink: /home/ojg/ae/install/app_control/share/app_control/local_setup.dsv
+[14.446s] -- Symlinking: /home/ojg/ae/install/app_control/share/app_control/package.dsv
+[14.452s] -- Up-to-date symlink: /home/ojg/ae/install/app_control/share/ament_index/resource_index/packages/app_control
+[14.452s] -- Up-to-date symlink: /home/ojg/ae/install/app_control/share/app_control/cmake/app_controlConfig.cmake
+[14.453s] -- Up-to-date symlink: /home/ojg/ae/install/app_control/share/app_control/cmake/app_controlConfig-version.cmake
+[14.453s] -- Up-to-date symlink: /home/ojg/ae/install/app_control/share/app_control/package.xml
+[14.454s] Invoked command in '/home/ojg/ae/build/app_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ojg/ae/install/visualization:/home/ojg/ae/install/obs_detect:/home/ojg/ae/install/map_control:/home/ojg/ae/install/lane_selector:/home/ojg/ae/install/f1tenth_gym_ros:/home/ojg/ae/install/evaluation:/opt/ros/humble /usr/bin/cmake --install /home/ojg/ae/build/app_control

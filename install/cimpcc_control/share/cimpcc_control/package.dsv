@@ -1,0 +1,8 @@
+source;share/cimpcc_control/hook/cmake_prefix_path.ps1
+source;share/cimpcc_control/hook/cmake_prefix_path.dsv
+source;share/cimpcc_control/hook/cmake_prefix_path.sh
+source;share/cimpcc_control/local_setup.bash
+source;share/cimpcc_control/local_setup.dsv
+source;share/cimpcc_control/local_setup.ps1
+source;share/cimpcc_control/local_setup.sh
+source;share/cimpcc_control/local_setup.zsh

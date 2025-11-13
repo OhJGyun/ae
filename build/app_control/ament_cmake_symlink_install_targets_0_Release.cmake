@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/ojg/ae/build/app_control/pure_pursuit_sim_node" "/home/ojg/ae/build/app_control/stanley_node" "TARGETS" "pure_pursuit_sim_node" "stanley_node" "DESTINATION" "lib/app_control")

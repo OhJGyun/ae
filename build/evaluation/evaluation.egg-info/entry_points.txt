@@ -1,0 +1,4 @@
+[console_scripts]
+compare_controllers = evaluation.compare_controllers:main
+evaluation_node = evaluation.evaluation_node:main
+

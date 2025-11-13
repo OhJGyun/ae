@@ -1,0 +1,25 @@
+[0.038s] Invoking command in '/home/ojg/ae/build/disparity_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ojg/ae/install/visualization:/home/ojg/ae/install/obs_detect:/home/ojg/ae/install/map_control:/home/ojg/ae/install/lane_selector:/home/ojg/ae/install/f1tenth_gym_ros:/home/ojg/ae/install/evaluation:/opt/ros/humble /usr/bin/cmake --build /home/ojg/ae/build/disparity_control -- -j18 -l18
+[1.140s] [100%] Built target disparity_autodrive_node
+[1.391s] Invoked command in '/home/ojg/ae/build/disparity_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ojg/ae/install/visualization:/home/ojg/ae/install/obs_detect:/home/ojg/ae/install/map_control:/home/ojg/ae/install/lane_selector:/home/ojg/ae/install/f1tenth_gym_ros:/home/ojg/ae/install/evaluation:/opt/ros/humble /usr/bin/cmake --build /home/ojg/ae/build/disparity_control -- -j18 -l18
+[1.403s] Invoking command in '/home/ojg/ae/build/disparity_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ojg/ae/install/visualization:/home/ojg/ae/install/obs_detect:/home/ojg/ae/install/map_control:/home/ojg/ae/install/lane_selector:/home/ojg/ae/install/f1tenth_gym_ros:/home/ojg/ae/install/evaluation:/opt/ros/humble /usr/bin/cmake --install /home/ojg/ae/build/disparity_control
+[1.409s] -- Install configuration: "Release"
+[1.409s] -- Execute custom install script
+[1.410s] -- Up-to-date symlink: /home/ojg/ae/install/disparity_control/lib/disparity_control/disparity_autodrive_node
+[1.410s] -- Up-to-date symlink: /home/ojg/ae/install/disparity_control/share/disparity_control//launch/disparity_autodrive.launch.py
+[1.410s] -- Up-to-date symlink: /home/ojg/ae/install/disparity_control/share/disparity_control//config/disparity_params.yaml
+[1.410s] -- Up-to-date symlink: /home/ojg/ae/install/disparity_control/share/ament_index/resource_index/package_run_dependencies/disparity_control
+[1.410s] -- Up-to-date symlink: /home/ojg/ae/install/disparity_control/share/ament_index/resource_index/parent_prefix_path/disparity_control
+[1.410s] -- Up-to-date symlink: /home/ojg/ae/install/disparity_control/share/disparity_control/environment/ament_prefix_path.sh
+[1.410s] -- Up-to-date symlink: /home/ojg/ae/install/disparity_control/share/disparity_control/environment/ament_prefix_path.dsv
+[1.410s] -- Up-to-date symlink: /home/ojg/ae/install/disparity_control/share/disparity_control/environment/path.sh
+[1.410s] -- Up-to-date symlink: /home/ojg/ae/install/disparity_control/share/disparity_control/environment/path.dsv
+[1.411s] -- Up-to-date symlink: /home/ojg/ae/install/disparity_control/share/disparity_control/local_setup.bash
+[1.411s] -- Up-to-date symlink: /home/ojg/ae/install/disparity_control/share/disparity_control/local_setup.sh
+[1.411s] -- Up-to-date symlink: /home/ojg/ae/install/disparity_control/share/disparity_control/local_setup.zsh
+[1.411s] -- Up-to-date symlink: /home/ojg/ae/install/disparity_control/share/disparity_control/local_setup.dsv
+[1.411s] -- Symlinking: /home/ojg/ae/install/disparity_control/share/disparity_control/package.dsv
+[1.424s] -- Up-to-date symlink: /home/ojg/ae/install/disparity_control/share/ament_index/resource_index/packages/disparity_control
+[1.424s] -- Up-to-date symlink: /home/ojg/ae/install/disparity_control/share/disparity_control/cmake/disparity_controlConfig.cmake
+[1.424s] -- Up-to-date symlink: /home/ojg/ae/install/disparity_control/share/disparity_control/cmake/disparity_controlConfig-version.cmake
+[1.424s] -- Up-to-date symlink: /home/ojg/ae/install/disparity_control/share/disparity_control/package.xml
+[1.438s] Invoked command in '/home/ojg/ae/build/disparity_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ojg/ae/install/visualization:/home/ojg/ae/install/obs_detect:/home/ojg/ae/install/map_control:/home/ojg/ae/install/lane_selector:/home/ojg/ae/install/f1tenth_gym_ros:/home/ojg/ae/install/evaluation:/opt/ros/humble /usr/bin/cmake --install /home/ojg/ae/build/disparity_control

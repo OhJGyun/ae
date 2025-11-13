@@ -1,0 +1,27 @@
+running develop
+running egg_info
+creating obs_detect.egg-info
+writing obs_detect.egg-info/PKG-INFO
+writing dependency_links to obs_detect.egg-info/dependency_links.txt
+writing entry points to obs_detect.egg-info/entry_points.txt
+writing requirements to obs_detect.egg-info/requires.txt
+writing top-level names to obs_detect.egg-info/top_level.txt
+writing manifest file 'obs_detect.egg-info/SOURCES.txt'
+reading manifest file 'obs_detect.egg-info/SOURCES.txt'
+writing manifest file 'obs_detect.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ojg/ae/install/obs_detect/lib/python3.10/site-packages/obs-detect.egg-link (link to .)
+Installing boundary_viz_node script to /home/ojg/ae/install/obs_detect/lib/obs_detect
+Installing ring_obs_node script to /home/ojg/ae/install/obs_detect/lib/obs_detect
+
+Installed /home/ojg/ae/build/obs_detect
+running symlink_data
+creating /home/ojg/ae/install/obs_detect/share/ament_index
+creating /home/ojg/ae/install/obs_detect/share/ament_index/resource_index
+creating /home/ojg/ae/install/obs_detect/share/ament_index/resource_index/packages
+symbolically linking /home/ojg/ae/build/obs_detect/resource/obs_detect -> /home/ojg/ae/install/obs_detect/share/ament_index/resource_index/packages
+symbolically linking /home/ojg/ae/build/obs_detect/package.xml -> /home/ojg/ae/install/obs_detect/share/obs_detect
+creating /home/ojg/ae/install/obs_detect/share/obs_detect/config
+symbolically linking /home/ojg/ae/build/obs_detect/config/obs_detect_params.yaml -> /home/ojg/ae/install/obs_detect/share/obs_detect/config
+creating /home/ojg/ae/install/obs_detect/share/obs_detect/launch
+symbolically linking /home/ojg/ae/build/obs_detect/launch/ring_obs.launch.py -> /home/ojg/ae/install/obs_detect/share/obs_detect/launch

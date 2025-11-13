@@ -1,0 +1,40 @@
+/**:
+  ros__parameters:
+    # --- Topic Configuration ---
+    scan_topic: "/scan"
+    drive_topic: "/drive"
+
+    # --- Vehicle Parameters ---
+    wheel_base: 0.324          # Distance between front and rear axles (m)
+    car_width: 0.30            # Full width of the car (m)
+
+    # --- Disparity Detection Parameters ---
+    max_range: 10.0            # Maximum LiDAR range to consider (m)
+    gap_threshold: 1.5         # Minimum gap size to be considered as disparity (m) - REDUCED for hairpins
+    disparity_margin: 1.3      # Safety margin for disparity extension (m) - REDUCED for tighter turns
+
+    # --- Control Parameters ---
+    v_max: 8.0                 # Maximum velocity (m/s)
+    v_min: 1.0                 # Minimum velocity (m/s)
+    max_steer: 0.45            # Maximum steering angle (radians, ~25.8 degrees)
+
+    # --- Waypoint Selection Parameters ---
+    lookahead_min: 0.8         # Minimum lookahead distance (m) - INCREASED for hairpins
+    lookahead_max: 3.5         # Maximum lookahead distance (m) - INCREASED for better planning
+
+    # --- Control Tuning ---
+    steering_gain: 1.1         # Proportional gain for steering - INCREASED for sharper turns
+    steering_smoothing: 0.7    # Steering smoothing factor (0-1, higher = more responsive) - INCREASED for hairpins
+    speed_reduction_factor: 0.9 # Speed reduction based on steering angle - INCREASED to slow down more in turns
+
+    # --- Waypoint Stability ---
+    enable_waypoint_stability: true  # Enable waypoint jump detection
+    waypoint_jump_threshold: 2.5     # Maximum allowed waypoint jump distance (m) - INCREASED for hairpin transitions
+
+    # --- Visualization Parameters ---
+    enable_visualization: true  # Enable/disable RViz markers
+    marker_frame: "map"       # Frame for visualization markers
+    waypoint_marker_size: 0.3   # Size of waypoint sphere marker (m)
+
+    # --- Debug ---
+    verbose_logging: true       # Enable detailed logging

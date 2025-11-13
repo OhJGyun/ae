@@ -1,0 +1,40 @@
+[0.038s] Invoking command in '/home/ojg/ae/build/cimpcc_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ojg/ae/install/visualization:/home/ojg/ae/install/obs_detect:/home/ojg/ae/install/map_control:/home/ojg/ae/install/lane_selector:/home/ojg/ae/install/f1tenth_gym_ros:/home/ojg/ae/install/evaluation:/opt/ros/humble /usr/bin/cmake --build /home/ojg/ae/build/cimpcc_control -- -j18 -l18
+[1.141s] Built target ament_cmake_python_symlink_mpcc
+[1.141s] running egg_info
+[1.141s] writing mpcc.egg-info/PKG-INFO
+[1.141s] writing dependency_links to mpcc.egg-info/dependency_links.txt
+[1.141s] writing top-level names to mpcc.egg-info/top_level.txt
+[1.142s] reading manifest file 'mpcc.egg-info/SOURCES.txt'
+[1.142s] writing manifest file 'mpcc.egg-info/SOURCES.txt'
+[1.142s] Built target ament_cmake_python_build_mpcc_egg
+[1.406s] Invoked command in '/home/ojg/ae/build/cimpcc_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ojg/ae/install/visualization:/home/ojg/ae/install/obs_detect:/home/ojg/ae/install/map_control:/home/ojg/ae/install/lane_selector:/home/ojg/ae/install/f1tenth_gym_ros:/home/ojg/ae/install/evaluation:/opt/ros/humble /usr/bin/cmake --build /home/ojg/ae/build/cimpcc_control -- -j18 -l18
+[1.407s] Invoking command in '/home/ojg/ae/build/cimpcc_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ojg/ae/install/visualization:/home/ojg/ae/install/obs_detect:/home/ojg/ae/install/map_control:/home/ojg/ae/install/lane_selector:/home/ojg/ae/install/f1tenth_gym_ros:/home/ojg/ae/install/evaluation:/opt/ros/humble /usr/bin/cmake --install /home/ojg/ae/build/cimpcc_control
+[1.415s] -- Install configuration: "Release"
+[1.417s] -- Execute custom install script
+[1.417s] -- Up-to-date symlink: /home/ojg/ae/install/cimpcc_control/share/cimpcc_control/environment/pythonpath.sh
+[1.417s] -- Up-to-date symlink: /home/ojg/ae/install/cimpcc_control/share/cimpcc_control/environment/pythonpath.dsv
+[1.417s] -- Up-to-date symlink: /home/ojg/ae/install/cimpcc_control/local/lib/python3.10/dist-packages/mpcc-0.0.0-py3.10.egg-info/PKG-INFO
+[1.419s] -- Up-to-date symlink: /home/ojg/ae/install/cimpcc_control/local/lib/python3.10/dist-packages/mpcc-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.419s] -- Up-to-date symlink: /home/ojg/ae/install/cimpcc_control/local/lib/python3.10/dist-packages/mpcc-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.419s] -- Up-to-date symlink: /home/ojg/ae/install/cimpcc_control/local/lib/python3.10/dist-packages/mpcc-0.0.0-py3.10.egg-info/top_level.txt
+[1.419s] -- Up-to-date symlink: /home/ojg/ae/install/cimpcc_control/local/lib/python3.10/dist-packages/mpcc/__init__.py
+[1.420s] -- Up-to-date symlink: /home/ojg/ae/install/cimpcc_control/lib/cimpcc_control/mpcc_node.py
+[1.420s] -- Up-to-date symlink: /home/ojg/ae/install/cimpcc_control/lib/cimpcc_control/mpcc.py
+[1.420s] -- Up-to-date symlink: /home/ojg/ae/install/cimpcc_control/share/cimpcc_control//params/mpcc_params.yaml
+[1.421s] -- Up-to-date symlink: /home/ojg/ae/install/cimpcc_control/share/ament_index/resource_index/package_run_dependencies/cimpcc_control
+[1.422s] -- Up-to-date symlink: /home/ojg/ae/install/cimpcc_control/share/ament_index/resource_index/parent_prefix_path/cimpcc_control
+[1.422s] -- Up-to-date symlink: /home/ojg/ae/install/cimpcc_control/share/cimpcc_control/environment/ament_prefix_path.sh
+[1.423s] -- Up-to-date symlink: /home/ojg/ae/install/cimpcc_control/share/cimpcc_control/environment/ament_prefix_path.dsv
+[1.423s] -- Up-to-date symlink: /home/ojg/ae/install/cimpcc_control/share/cimpcc_control/environment/path.sh
+[1.423s] -- Up-to-date symlink: /home/ojg/ae/install/cimpcc_control/share/cimpcc_control/environment/path.dsv
+[1.423s] -- Up-to-date symlink: /home/ojg/ae/install/cimpcc_control/share/cimpcc_control/local_setup.bash
+[1.424s] -- Up-to-date symlink: /home/ojg/ae/install/cimpcc_control/share/cimpcc_control/local_setup.sh
+[1.425s] -- Up-to-date symlink: /home/ojg/ae/install/cimpcc_control/share/cimpcc_control/local_setup.zsh
+[1.426s] -- Up-to-date symlink: /home/ojg/ae/install/cimpcc_control/share/cimpcc_control/local_setup.dsv
+[1.426s] -- Symlinking: /home/ojg/ae/install/cimpcc_control/share/cimpcc_control/package.dsv
+[1.441s] -- Up-to-date symlink: /home/ojg/ae/install/cimpcc_control/share/ament_index/resource_index/packages/cimpcc_control
+[1.441s] -- Up-to-date symlink: /home/ojg/ae/install/cimpcc_control/share/cimpcc_control/cmake/cimpcc_controlConfig.cmake
+[1.441s] -- Up-to-date symlink: /home/ojg/ae/install/cimpcc_control/share/cimpcc_control/cmake/cimpcc_controlConfig-version.cmake
+[1.441s] -- Up-to-date symlink: /home/ojg/ae/install/cimpcc_control/share/cimpcc_control/package.xml
+[1.485s] Listing '/home/ojg/ae/install/cimpcc_control/local/lib/python3.10/dist-packages/mpcc'...
+[1.499s] Invoked command in '/home/ojg/ae/build/cimpcc_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ojg/ae/install/visualization:/home/ojg/ae/install/obs_detect:/home/ojg/ae/install/map_control:/home/ojg/ae/install/lane_selector:/home/ojg/ae/install/f1tenth_gym_ros:/home/ojg/ae/install/evaluation:/opt/ros/humble /usr/bin/cmake --install /home/ojg/ae/build/cimpcc_control

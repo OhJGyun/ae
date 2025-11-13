@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+config/sections.yaml
+evaluation/__init__.py
+evaluation/compare_controllers.py
+evaluation/evaluation_node.py
+evaluation.egg-info/PKG-INFO
+evaluation.egg-info/SOURCES.txt
+evaluation.egg-info/dependency_links.txt
+evaluation.egg-info/entry_points.txt
+evaluation.egg-info/requires.txt
+evaluation.egg-info/top_level.txt
+evaluation.egg-info/zip-safe
+launch/evaluation.launch.py
+resource/evaluation

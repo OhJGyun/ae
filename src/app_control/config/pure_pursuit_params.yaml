@@ -1,0 +1,44 @@
+pure_pursuit_sim_node:
+  ros__parameters:
+    # ✅ Multi-lane support (like map_controller)
+    # If lane_csv_paths is provided, multi-lane mode is enabled
+    # Otherwise, falls back to single csv_file_path
+    lane_csv_paths:
+      - "/home/ojg/ae/track/path/app_path/test_12.0/lane_optimal.csv"
+      - "/home/ojg/ae/track/path/app_path/test_12.0/lane_left.csv"
+      - "/home/ojg/ae/track/path/app_path/test_12.0/lane_right.csv"
+
+    # ✅ Lane selector topic (for multi-lane mode)
+    lane_selector_topic: "/lane_selector/target_lane"
+
+    # Path and topics
+    csv_file_path: "/home/ojg/ae/track/path/app_path/test_12.0/lane_optimal.csv"  # Fallback for single-lane mode
+    path_frame_id: "map"
+    planned_path_topic: "/planned_path"
+    odom_topic: "/ego_racecar/odom"
+    drive_topic: "/drive"
+
+    # Vehicle parameters
+    wheelbase: 0.3302
+
+    # Adaptive lookahead distance parameters
+    min_lookahead_distance: 1.5    # 최소 lookahead (m) - 저속/급커브
+    max_lookahead_distance: 1.9    # 최대 lookahead (m) - 고속/직선
+    lookahead_gain: 0.2            # lookahead = offset + gain * speed
+    lookahead_offset: 1.0          # lookahead 기본 오프셋 (m)
+
+    # Adaptive speed control based on curvature
+    max_speed: 15.0                 # 최대 속도 (m/s) - 직선
+    min_speed: 0.0                 # 최소 속도 (m/s) - 급커브
+    speed_curvature_gain: 0.0      # 곡률에 따른 속도 감소 계수
+
+    # Timing
+    publish_path_period_ms: 500
+    control_period_ms: 50
+
+    # PID speed control (fine-tuning)
+    enable_pid: false               # PID 제어기 활성화/비활성화 (true/false)
+    speed_kp: 0.8
+    speed_ki: 0.01
+    speed_kd: 0.000
+    speed_change_rate_limit: 5.0   # 속도 변화율 제한 (m/s^2)

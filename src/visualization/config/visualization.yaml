@@ -1,0 +1,11 @@
+csv_publisher:
+  ros__parameters:
+    # CSV file path (format: centerline_x, centerline_y, left_bound_x, left_bound_y, right_bound_x, right_bound_y)
+    map_bounds_csv: "/home/ojg/ae/csv/map/map_bounds_rescaled_absolute.csv"
+
+    # Visualization settings
+    marker_frame_id: "map"
+    publish_rate: 1.0
+    line_width: 0.05
+    point_size: 0.1
+    z_height: 0.0
